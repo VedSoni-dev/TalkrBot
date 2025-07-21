@@ -1,0 +1,15 @@
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/ament_index/resource_index/package_run_dependencies/talkrbot_msgs
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/ament_index/resource_index/parent_prefix_path/talkrbot_msgs
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/environment/ament_prefix_path.sh
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/environment/ament_prefix_path.dsv
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/environment/path.sh
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/environment/path.dsv
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/local_setup.bash
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/local_setup.sh
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/local_setup.zsh
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/local_setup.dsv
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.dsv
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/ament_index/resource_index/packages/talkrbot_msgs
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/cmake/talkrbot_msgsConfig.cmake
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/cmake/talkrbot_msgsConfig-version.cmake
+/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.xml

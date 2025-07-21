@@ -1,0 +1,28 @@
+running develop
+Removing /home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages/talkrbot-feedback.egg-link (link to .)
+running egg_info
+writing ../build/talkrbot_feedback/talkrbot_feedback.egg-info/PKG-INFO
+writing dependency_links to ../build/talkrbot_feedback/talkrbot_feedback.egg-info/dependency_links.txt
+writing entry points to ../build/talkrbot_feedback/talkrbot_feedback.egg-info/entry_points.txt
+writing requirements to ../build/talkrbot_feedback/talkrbot_feedback.egg-info/requires.txt
+writing top-level names to ../build/talkrbot_feedback/talkrbot_feedback.egg-info/top_level.txt
+reading manifest file '../build/talkrbot_feedback/talkrbot_feedback.egg-info/SOURCES.txt'
+writing manifest file '../build/talkrbot_feedback/talkrbot_feedback.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vedantso/TalkrBot/build/talkrbot_feedback/build
+creating /home/vedantso/TalkrBot/build/talkrbot_feedback/build/lib
+creating /home/vedantso/TalkrBot/build/talkrbot_feedback/build/lib/talkrbot_feedback
+copying talkrbot_feedback/__init__.py -> /home/vedantso/TalkrBot/build/talkrbot_feedback/build/lib/talkrbot_feedback
+running install
+running install_lib
+creating /home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages/talkrbot_feedback
+copying /home/vedantso/TalkrBot/build/talkrbot_feedback/build/lib/talkrbot_feedback/__init__.py -> /home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages/talkrbot_feedback
+byte-compiling /home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages/talkrbot_feedback/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/talkrbot_feedback -> /home/vedantso/TalkrBot/install/talkrbot_feedback/share/ament_index/resource_index/packages
+copying package.xml -> /home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback
+running install_egg_info
+Copying ../build/talkrbot_feedback/talkrbot_feedback.egg-info to /home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages/talkrbot_feedback-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/vedantso/TalkrBot/build/talkrbot_feedback/install.log'
