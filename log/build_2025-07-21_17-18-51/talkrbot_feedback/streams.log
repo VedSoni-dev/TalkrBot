@@ -1,0 +1,18 @@
+[1.034s] Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_feedback': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_feedback/build --no-deps symlink_data --force
+[1.197s] running develop
+[1.285s] running egg_info
+[1.285s] writing talkrbot_feedback.egg-info/PKG-INFO
+[1.285s] writing dependency_links to talkrbot_feedback.egg-info/dependency_links.txt
+[1.285s] writing entry points to talkrbot_feedback.egg-info/entry_points.txt
+[1.285s] writing requirements to talkrbot_feedback.egg-info/requires.txt
+[1.286s] writing top-level names to talkrbot_feedback.egg-info/top_level.txt
+[1.286s] reading manifest file 'talkrbot_feedback.egg-info/SOURCES.txt'
+[1.287s] writing manifest file 'talkrbot_feedback.egg-info/SOURCES.txt'
+[1.288s] running build_ext
+[1.288s] Creating /home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages/talkrbot-feedback.egg-link (link to .)
+[1.288s] 
+[1.288s] Installed /home/vedantso/TalkrBot/build/talkrbot_feedback
+[1.289s] running symlink_data
+[1.289s] symbolically linking /home/vedantso/TalkrBot/build/talkrbot_feedback/resource/talkrbot_feedback -> /home/vedantso/TalkrBot/install/talkrbot_feedback/share/ament_index/resource_index/packages
+[1.289s] symbolically linking /home/vedantso/TalkrBot/build/talkrbot_feedback/package.xml -> /home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback
+[1.308s] Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_feedback' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_feedback/build --no-deps symlink_data --force

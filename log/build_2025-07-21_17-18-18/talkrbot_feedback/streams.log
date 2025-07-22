@@ -1,0 +1,20 @@
+[1.013s] Invoking command in '/home/vedantso/TalkrBot/talkrbot_feedback': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_feedback build --build-base /home/vedantso/TalkrBot/build/talkrbot_feedback/build install --record /home/vedantso/TalkrBot/build/talkrbot_feedback/install.log --single-version-externally-managed install_data
+[1.163s] running egg_info
+[1.163s] writing ../build/talkrbot_feedback/talkrbot_feedback.egg-info/PKG-INFO
+[1.163s] writing dependency_links to ../build/talkrbot_feedback/talkrbot_feedback.egg-info/dependency_links.txt
+[1.163s] writing entry points to ../build/talkrbot_feedback/talkrbot_feedback.egg-info/entry_points.txt
+[1.164s] writing requirements to ../build/talkrbot_feedback/talkrbot_feedback.egg-info/requires.txt
+[1.164s] writing top-level names to ../build/talkrbot_feedback/talkrbot_feedback.egg-info/top_level.txt
+[1.164s] reading manifest file '../build/talkrbot_feedback/talkrbot_feedback.egg-info/SOURCES.txt'
+[1.165s] writing manifest file '../build/talkrbot_feedback/talkrbot_feedback.egg-info/SOURCES.txt'
+[1.165s] running build
+[1.165s] running build_py
+[1.165s] running install
+[1.165s] running install_lib
+[1.166s] running install_data
+[1.166s] running install_egg_info
+[1.167s] removing '/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages/talkrbot_feedback-0.0.0-py3.10.egg-info' (and everything under it)
+[1.167s] Copying ../build/talkrbot_feedback/talkrbot_feedback.egg-info to /home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages/talkrbot_feedback-0.0.0-py3.10.egg-info
+[1.168s] running install_scripts
+[1.181s] writing list of installed files to '/home/vedantso/TalkrBot/build/talkrbot_feedback/install.log'
+[1.200s] Invoked command in '/home/vedantso/TalkrBot/talkrbot_feedback' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_feedback build --build-base /home/vedantso/TalkrBot/build/talkrbot_feedback/build install --record /home/vedantso/TalkrBot/build/talkrbot_feedback/install.log --single-version-externally-managed install_data

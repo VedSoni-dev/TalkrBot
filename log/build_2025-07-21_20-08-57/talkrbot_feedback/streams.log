@@ -1,0 +1,16 @@
+[1.082s] Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_feedback': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_feedback/build --no-deps symlink_data
+[1.242s] running develop
+[1.329s] running egg_info
+[1.329s] writing talkrbot_feedback.egg-info/PKG-INFO
+[1.329s] writing dependency_links to talkrbot_feedback.egg-info/dependency_links.txt
+[1.329s] writing entry points to talkrbot_feedback.egg-info/entry_points.txt
+[1.329s] writing requirements to talkrbot_feedback.egg-info/requires.txt
+[1.329s] writing top-level names to talkrbot_feedback.egg-info/top_level.txt
+[1.331s] reading manifest file 'talkrbot_feedback.egg-info/SOURCES.txt'
+[1.331s] writing manifest file 'talkrbot_feedback.egg-info/SOURCES.txt'
+[1.332s] running build_ext
+[1.332s] Creating /home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages/talkrbot-feedback.egg-link (link to .)
+[1.332s] 
+[1.332s] Installed /home/vedantso/TalkrBot/build/talkrbot_feedback
+[1.333s] running symlink_data
+[1.353s] Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_feedback' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_feedback/build --no-deps symlink_data

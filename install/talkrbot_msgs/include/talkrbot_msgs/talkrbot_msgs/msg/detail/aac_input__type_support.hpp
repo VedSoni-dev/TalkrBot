@@ -1,0 +1,1 @@
+/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__type_support.hpp

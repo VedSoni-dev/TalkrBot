@@ -1,0 +1,28 @@
+[1.086s] Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_llm': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_llm/build
+[1.244s] running develop
+[1.330s] Removing /home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages/talkrbot-llm.egg-link (link to .)
+[1.353s] Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_llm' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_llm/build
+[1.354s] Invoking command in '/home/vedantso/TalkrBot/talkrbot_llm': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_llm build --build-base /home/vedantso/TalkrBot/build/talkrbot_llm/build install --record /home/vedantso/TalkrBot/build/talkrbot_llm/install.log --single-version-externally-managed install_data --force
+[1.513s] running egg_info
+[1.513s] writing ../build/talkrbot_llm/talkrbot_llm.egg-info/PKG-INFO
+[1.513s] writing dependency_links to ../build/talkrbot_llm/talkrbot_llm.egg-info/dependency_links.txt
+[1.514s] writing entry points to ../build/talkrbot_llm/talkrbot_llm.egg-info/entry_points.txt
+[1.514s] writing requirements to ../build/talkrbot_llm/talkrbot_llm.egg-info/requires.txt
+[1.514s] writing top-level names to ../build/talkrbot_llm/talkrbot_llm.egg-info/top_level.txt
+[1.514s] reading manifest file '../build/talkrbot_llm/talkrbot_llm.egg-info/SOURCES.txt'
+[1.515s] writing manifest file '../build/talkrbot_llm/talkrbot_llm.egg-info/SOURCES.txt'
+[1.515s] running build
+[1.515s] running build_py
+[1.515s] running install
+[1.515s] running install_lib
+[1.516s] creating /home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages/talkrbot_llm
+[1.516s] copying /home/vedantso/TalkrBot/build/talkrbot_llm/build/lib/talkrbot_llm/__init__.py -> /home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages/talkrbot_llm
+[1.516s] byte-compiling /home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages/talkrbot_llm/__init__.py to __init__.cpython-310.pyc
+[1.516s] running install_data
+[1.516s] copying resource/talkrbot_llm -> /home/vedantso/TalkrBot/install/talkrbot_llm/share/ament_index/resource_index/packages
+[1.516s] copying package.xml -> /home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm
+[1.516s] running install_egg_info
+[1.517s] Copying ../build/talkrbot_llm/talkrbot_llm.egg-info to /home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages/talkrbot_llm-0.0.0-py3.10.egg-info
+[1.518s] running install_scripts
+[1.531s] writing list of installed files to '/home/vedantso/TalkrBot/build/talkrbot_llm/install.log'
+[1.551s] Invoked command in '/home/vedantso/TalkrBot/talkrbot_llm' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_llm build --build-base /home/vedantso/TalkrBot/build/talkrbot_llm/build install --record /home/vedantso/TalkrBot/build/talkrbot_llm/install.log --single-version-externally-managed install_data --force

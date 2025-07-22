@@ -1,0 +1,19 @@
+nohup: ignoring input
+[INFO] [1753149396.850500997] [aac_node]: AACNode initialized with WebSocket (8765) and HTTP (8080) servers.
+[INFO] [1753149411.541716791] [aac_node]: Received input from websocket: user_id=vedant, text='turn on lights'
+[INFO] [1753149424.046835783] [aac_node]: Received input from http: user_id=test_user, text='play music'
+127.0.0.1 - - [21/Jul/2025 20:57:04] "POST /aac_input HTTP/1.1" 200 -
+[INFO] [1753149449.931972778] [aac_node]: Received input from websocket: user_id=vedant, text='turn on lights'
+[INFO] [1753149479.011981315] [aac_node]: Received input from websocket: user_id=vedant, text='turn on lights'
+[INFO] [1753149488.388002422] [aac_node]: Received input from ros_topic: user_id=ros_user, text='hello from ros topic'
+[INFO] [1753149501.174181018] [aac_node]: Received input from websocket: user_id=vedant, text='turn on lights'
+[INFO] [1753149501.193429613] [aac_node]: Received input from http: user_id=curl_user, text='turn off lights'
+127.0.0.1 - - [21/Jul/2025 20:58:21] "POST /aac_input HTTP/1.1" 200 -
+[INFO] [1753149502.409845481] [aac_node]: Received input from ros_topic: user_id=ros_user, text='final test message'
+[INFO] [1753150056.744704185] [aac_node]: Received input from websocket: user_id=vedant, text='turn on lights'
+[INFO] [1753150085.274063039] [aac_node]: Received input from http: user_id=test, text='hello http'
+127.0.0.1 - - [21/Jul/2025 21:08:05] "POST /aac_input HTTP/1.1" 200 -
+[INFO] [1753150091.672603906] [aac_node]: Received input from ros_topic: user_id=ros_user, text='hello ros'
+[INFO] [1753150110.832610640] [aac_node]: Received input from ros_topic: user_id=ros_user, text='hello ros'
+ user_id=ros_user, text='hello ros'
+[INFO] [1753150110.832909678] [aac_node]: Received input from ros_topic: user_id=ros_user, text='hello ros'

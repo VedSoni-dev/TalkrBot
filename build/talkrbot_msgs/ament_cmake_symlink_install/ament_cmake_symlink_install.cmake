@@ -310,6 +310,60 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/talkrbot_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/talkrbot_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/vedantso/TalkrBot/talkrbot_msgs" DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/talkrbot_msgs/environment")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/talkrbot_msgs/environment")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/talkrbot_msgs/environment")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/talkrbot_msgs/environment")
+
+# install(DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_c/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/vedantso/TalkrBot/talkrbot_msgs" DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_c/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_introspection_c/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/vedantso/TalkrBot/talkrbot_msgs" DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_introspection_c/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN" "*.h")
+
+# install(DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/vedantso/TalkrBot/talkrbot_msgs" DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/vedantso/TalkrBot/talkrbot_msgs" DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_introspection_cpp/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/vedantso/TalkrBot/talkrbot_msgs" DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_introspection_cpp/talkrbot_msgs/" "DESTINATION" "include/talkrbot_msgs/talkrbot_msgs" "PATTERN" "*.hpp")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/talkrbot_msgs/environment")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/talkrbot_msgs/environment")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/talkrbot_msgs/environment")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/talkrbot_msgs/environment")
+
+# install(DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_python/talkrbot_msgs/talkrbot_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/talkrbot_msgs-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/vedantso/TalkrBot/talkrbot_msgs" DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_python/talkrbot_msgs/talkrbot_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/talkrbot_msgs-0.0.0-py3.10.egg-info")
+
+# install(DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/talkrbot_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/vedantso/TalkrBot/talkrbot_msgs" DIRECTORY "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/talkrbot_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install("TARGETS" "talkrbot_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/talkrbot_msgs")
+include("/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "talkrbot_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/talkrbot_msgs")
+include("/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "talkrbot_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/talkrbot_msgs")
+include("/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/AACInput.idl" "DESTINATION" "share/talkrbot_msgs/msg")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/AACInput.idl" "DESTINATION" "share/talkrbot_msgs/msg")
+
+# install(FILES "/home/vedantso/TalkrBot/talkrbot_msgs/msg/AACInput.msg" "DESTINATION" "share/talkrbot_msgs/msg")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/talkrbot_msgs/msg/AACInput.msg" "DESTINATION" "share/talkrbot_msgs/msg")
+
 # install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/talkrbot_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/talkrbot_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
@@ -345,6 +399,27 @@ ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES 
 
 # install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_index/share/ament_index/resource_index/packages/talkrbot_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_index/share/ament_index/resource_index/packages/talkrbot_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
 
 # install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_core/talkrbot_msgsConfig.cmake" "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_core/talkrbot_msgsConfig-version.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")
 ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_core/talkrbot_msgsConfig.cmake" "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_core/talkrbot_msgsConfig-version.cmake" "DESTINATION" "share/talkrbot_msgs/cmake")

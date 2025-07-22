@@ -1,0 +1,411 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77756ae90a90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77756ae90580>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77756ae90580>>)
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.155s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vedantso/TalkrBot'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_aac) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_aac) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_aac) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_aac) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_aac) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_aac) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_aac) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_aac) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_aac) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'talkrbot_aac' with type 'ros.ament_python' and name 'talkrbot_aac'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_feedback) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_feedback) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_feedback) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_feedback) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_feedback) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_feedback) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_feedback) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_feedback) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_feedback) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'talkrbot_feedback' with type 'ros.ament_python' and name 'talkrbot_feedback'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_llm) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_llm) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_llm) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_llm) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_llm) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_llm) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_llm) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_llm) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_llm) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'talkrbot_llm' with type 'ros.ament_python' and name 'talkrbot_llm'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_msgs) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_msgs) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_msgs) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_msgs) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_msgs) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_msgs) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_msgs) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_msgs) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'talkrbot_msgs' with type 'ros.ament_cmake' and name 'talkrbot_msgs'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_nav) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_nav) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_nav) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_nav) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_nav) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_nav) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_nav) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_nav) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'talkrbot_nav' with type 'ros.ament_python' and name 'talkrbot_nav'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_perception) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_perception) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_perception) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_perception) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_perception) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_perception) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_perception) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(talkrbot_perception) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'talkrbot_perception' with type 'ros.ament_python' and name 'talkrbot_perception'
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/vedantso/TalkrBot/install
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/vedantso/talkrbot_ws/install
+[0.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/vedantso/ros2_ws/install
+[0.192s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 362 installed packages in /opt/ros/humble
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_aac' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_aac' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_aac' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_aac' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_aac' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_aac' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_aac' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_aac' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_aac' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'talkrbot_aac' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vedantso/TalkrBot/build/talkrbot_aac', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vedantso/TalkrBot/install/talkrbot_aac', 'merge_install': False, 'path': '/home/vedantso/TalkrBot/talkrbot_aac', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_feedback' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_feedback' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_feedback' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_feedback' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_feedback' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_feedback' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_feedback' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_feedback' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_feedback' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'talkrbot_feedback' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vedantso/TalkrBot/build/talkrbot_feedback', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vedantso/TalkrBot/install/talkrbot_feedback', 'merge_install': False, 'path': '/home/vedantso/TalkrBot/talkrbot_feedback', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_llm' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_llm' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_llm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_llm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_llm' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_llm' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_llm' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_llm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_llm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'talkrbot_llm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vedantso/TalkrBot/build/talkrbot_llm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vedantso/TalkrBot/install/talkrbot_llm', 'merge_install': False, 'path': '/home/vedantso/TalkrBot/talkrbot_llm', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'talkrbot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vedantso/TalkrBot/build/talkrbot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vedantso/TalkrBot/install/talkrbot_msgs', 'merge_install': False, 'path': '/home/vedantso/TalkrBot/talkrbot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_nav' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_nav' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'talkrbot_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vedantso/TalkrBot/build/talkrbot_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vedantso/TalkrBot/install/talkrbot_nav', 'merge_install': False, 'path': '/home/vedantso/TalkrBot/talkrbot_nav', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_perception' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_perception' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'talkrbot_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'talkrbot_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vedantso/TalkrBot/build/talkrbot_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vedantso/TalkrBot/install/talkrbot_perception', 'merge_install': False, 'path': '/home/vedantso/TalkrBot/talkrbot_perception', 'symlink_install': False, 'test_result_base': None}
+[0.217s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.218s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vedantso/TalkrBot/talkrbot_aac' with build type 'ament_python'
+[0.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_aac', 'ament_prefix_path')
+[0.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/hook/ament_prefix_path.ps1'
+[0.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/hook/ament_prefix_path.dsv'
+[0.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/hook/ament_prefix_path.sh'
+[0.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.224s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vedantso/TalkrBot/talkrbot_feedback' with build type 'ament_python'
+[0.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_feedback', 'ament_prefix_path')
+[0.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/hook/ament_prefix_path.ps1'
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/hook/ament_prefix_path.dsv'
+[0.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/hook/ament_prefix_path.sh'
+[0.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vedantso/TalkrBot/talkrbot_llm' with build type 'ament_python'
+[0.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_llm', 'ament_prefix_path')
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/hook/ament_prefix_path.ps1'
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/hook/ament_prefix_path.dsv'
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/hook/ament_prefix_path.sh'
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.233s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vedantso/TalkrBot/talkrbot_msgs' with build type 'ament_cmake'
+[0.233s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vedantso/TalkrBot/talkrbot_msgs'
+[0.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vedantso/TalkrBot/talkrbot_nav' with build type 'ament_python'
+[0.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_nav', 'ament_prefix_path')
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/hook/ament_prefix_path.ps1'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/hook/ament_prefix_path.dsv'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/hook/ament_prefix_path.sh'
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vedantso/TalkrBot/talkrbot_perception' with build type 'ament_python'
+[0.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_perception', 'ament_prefix_path')
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/hook/ament_prefix_path.ps1'
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/hook/ament_prefix_path.dsv'
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/hook/ament_prefix_path.sh'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vedantso/TalkrBot/talkrbot_aac'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.565s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vedantso/TalkrBot/talkrbot_feedback'
+[0.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.726s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vedantso/TalkrBot/talkrbot_llm'
+[0.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedantso/TalkrBot/install/talkrbot_perception:/home/vedantso/TalkrBot/install/talkrbot_nav:/home/vedantso/TalkrBot/install/talkrbot_llm:/home/vedantso/TalkrBot/install/talkrbot_feedback:/home/vedantso/TalkrBot/install/talkrbot_aac:/home/vedantso/ros2_ws/install/teensy_sensors:/home/vedantso/ros2_ws/install/ros_tcp_endpoint:/home/vedantso/ros2_ws/install/ros2_roboclaw:/home/vedantso/ros2_ws/install/ros2_controller:/home/vedantso/ros2_ws/install/robot_description:/home/vedantso/ros2_ws/install/loca_and_nav:/home/vedantso/ros2_ws/install/image_processing:/home/vedantso/ros2_ws/install/art_lab_launcher:/home/vedantso/ros2_ws/install/Reach_Device:/opt/ros/humble /usr/bin/cmake --build /home/vedantso/TalkrBot/build/talkrbot_msgs -- -j22 -l22
+[0.903s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vedantso/TalkrBot/talkrbot_nav'
+[0.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.071s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vedantso/TalkrBot/talkrbot_perception'
+[1.071s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedantso/TalkrBot/install/talkrbot_perception:/home/vedantso/TalkrBot/install/talkrbot_nav:/home/vedantso/TalkrBot/install/talkrbot_llm:/home/vedantso/TalkrBot/install/talkrbot_feedback:/home/vedantso/TalkrBot/install/talkrbot_aac:/home/vedantso/ros2_ws/install/teensy_sensors:/home/vedantso/ros2_ws/install/ros_tcp_endpoint:/home/vedantso/ros2_ws/install/ros2_roboclaw:/home/vedantso/ros2_ws/install/ros2_controller:/home/vedantso/ros2_ws/install/robot_description:/home/vedantso/ros2_ws/install/loca_and_nav:/home/vedantso/ros2_ws/install/image_processing:/home/vedantso/ros2_ws/install/art_lab_launcher:/home/vedantso/ros2_ws/install/Reach_Device:/opt/ros/humble /usr/bin/cmake --build /home/vedantso/TalkrBot/build/talkrbot_msgs -- -j22 -l22
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedantso/TalkrBot/install/talkrbot_perception:/home/vedantso/TalkrBot/install/talkrbot_nav:/home/vedantso/TalkrBot/install/talkrbot_llm:/home/vedantso/TalkrBot/install/talkrbot_feedback:/home/vedantso/TalkrBot/install/talkrbot_aac:/home/vedantso/ros2_ws/install/teensy_sensors:/home/vedantso/ros2_ws/install/ros_tcp_endpoint:/home/vedantso/ros2_ws/install/ros2_roboclaw:/home/vedantso/ros2_ws/install/ros2_controller:/home/vedantso/ros2_ws/install/robot_description:/home/vedantso/ros2_ws/install/loca_and_nav:/home/vedantso/ros2_ws/install/image_processing:/home/vedantso/ros2_ws/install/art_lab_launcher:/home/vedantso/ros2_ws/install/Reach_Device:/opt/ros/humble /usr/bin/cmake --install /home/vedantso/TalkrBot/build/talkrbot_msgs
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talkrbot_msgs)
+[1.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedantso/TalkrBot/install/talkrbot_perception:/home/vedantso/TalkrBot/install/talkrbot_nav:/home/vedantso/TalkrBot/install/talkrbot_llm:/home/vedantso/TalkrBot/install/talkrbot_feedback:/home/vedantso/TalkrBot/install/talkrbot_aac:/home/vedantso/ros2_ws/install/teensy_sensors:/home/vedantso/ros2_ws/install/ros_tcp_endpoint:/home/vedantso/ros2_ws/install/ros2_roboclaw:/home/vedantso/ros2_ws/install/ros2_controller:/home/vedantso/ros2_ws/install/robot_description:/home/vedantso/ros2_ws/install/loca_and_nav:/home/vedantso/ros2_ws/install/image_processing:/home/vedantso/ros2_ws/install/art_lab_launcher:/home/vedantso/ros2_ws/install/Reach_Device:/opt/ros/humble /usr/bin/cmake --install /home/vedantso/TalkrBot/build/talkrbot_msgs
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs' for CMake module files
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs' for CMake config files
+[1.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_msgs', 'cmake_prefix_path')
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/cmake_prefix_path.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/cmake_prefix_path.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/cmake_prefix_path.sh'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs/lib'
+[1.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_msgs', 'ld_library_path_lib')
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/ld_library_path_lib.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/ld_library_path_lib.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/ld_library_path_lib.sh'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs/bin'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs/lib/pkgconfig/talkrbot_msgs.pc'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs/lib/python3.10/site-packages'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs/bin'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.sh'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.bash'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.zsh'
+[1.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vedantso/TalkrBot/install/talkrbot_msgs/share/colcon-core/packages/talkrbot_msgs)
+[1.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talkrbot_msgs)
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs' for CMake module files
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs' for CMake config files
+[1.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_msgs', 'cmake_prefix_path')
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/cmake_prefix_path.ps1'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/cmake_prefix_path.dsv'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/cmake_prefix_path.sh'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs/lib'
+[1.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_msgs', 'ld_library_path_lib')
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/ld_library_path_lib.ps1'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/ld_library_path_lib.dsv'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/hook/ld_library_path_lib.sh'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs/bin'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs/lib/pkgconfig/talkrbot_msgs.pc'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs/lib/python3.10/site-packages'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_msgs/bin'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.sh'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.bash'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_msgs/share/talkrbot_msgs/package.zsh'
+[1.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vedantso/TalkrBot/install/talkrbot_msgs/share/colcon-core/packages/talkrbot_msgs)
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_nav': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_nav/build
+[1.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_aac': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_aac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_aac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_aac/build
+[1.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_perception': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_perception/build
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_feedback': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_feedback/build
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_llm': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_llm/build
+[1.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_llm' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_llm/build
+[1.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/talkrbot_llm': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_llm build --build-base /home/vedantso/TalkrBot/build/talkrbot_llm/build install --record /home/vedantso/TalkrBot/build/talkrbot_llm/install.log --single-version-externally-managed install_data --force
+[1.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_feedback' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_feedback/build
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/talkrbot_feedback': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_feedback build --build-base /home/vedantso/TalkrBot/build/talkrbot_feedback/build install --record /home/vedantso/TalkrBot/build/talkrbot_feedback/install.log --single-version-externally-managed install_data --force
+[1.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_perception' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_perception/build
+[1.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/talkrbot_perception': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_perception build --build-base /home/vedantso/TalkrBot/build/talkrbot_perception/build install --record /home/vedantso/TalkrBot/build/talkrbot_perception/install.log --single-version-externally-managed install_data --force
+[1.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_aac' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_aac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_aac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_aac/build
+[1.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/talkrbot_aac': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_aac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_aac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_aac build --build-base /home/vedantso/TalkrBot/build/talkrbot_aac/build install --record /home/vedantso/TalkrBot/build/talkrbot_aac/install.log --single-version-externally-managed install_data --force
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_nav' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_nav/build
+[1.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedantso/TalkrBot/talkrbot_nav': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_nav build --build-base /home/vedantso/TalkrBot/build/talkrbot_nav/build install --record /home/vedantso/TalkrBot/build/talkrbot_nav/install.log --single-version-externally-managed install_data --force
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_feedback' for CMake module files
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_feedback' for CMake config files
+[1.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/talkrbot_feedback' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_feedback build --build-base /home/vedantso/TalkrBot/build/talkrbot_feedback/build install --record /home/vedantso/TalkrBot/build/talkrbot_feedback/install.log --single-version-externally-managed install_data --force
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_feedback/lib'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_feedback/bin'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/pkgconfig/talkrbot_feedback.pc'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_feedback/lib/python3.10/site-packages'
+[1.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_feedback', 'pythonpath')
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/hook/pythonpath.ps1'
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/hook/pythonpath.dsv'
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/hook/pythonpath.sh'
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_feedback/bin'
+[1.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talkrbot_feedback)
+[1.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/package.ps1'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/package.dsv'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/package.sh'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/package.bash'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_feedback/share/talkrbot_feedback/package.zsh'
+[1.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vedantso/TalkrBot/install/talkrbot_feedback/share/colcon-core/packages/talkrbot_feedback)
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_llm' for CMake module files
+[1.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/talkrbot_llm' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_llm build --build-base /home/vedantso/TalkrBot/build/talkrbot_llm/build install --record /home/vedantso/TalkrBot/build/talkrbot_llm/install.log --single-version-externally-managed install_data --force
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_llm' for CMake config files
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_llm/lib'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_llm/bin'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_llm/lib/pkgconfig/talkrbot_llm.pc'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_llm/lib/python3.10/site-packages'
+[1.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_llm', 'pythonpath')
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/hook/pythonpath.ps1'
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/hook/pythonpath.dsv'
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/hook/pythonpath.sh'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_llm/bin'
+[1.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talkrbot_llm)
+[1.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/package.ps1'
+[1.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/package.dsv'
+[1.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/package.sh'
+[1.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/package.bash'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_llm/share/talkrbot_llm/package.zsh'
+[1.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vedantso/TalkrBot/install/talkrbot_llm/share/colcon-core/packages/talkrbot_llm)
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_perception' for CMake module files
+[1.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/talkrbot_perception' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_perception build --build-base /home/vedantso/TalkrBot/build/talkrbot_perception/build install --record /home/vedantso/TalkrBot/build/talkrbot_perception/install.log --single-version-externally-managed install_data --force
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_perception' for CMake config files
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_perception/lib'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_perception/bin'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_perception/lib/pkgconfig/talkrbot_perception.pc'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages'
+[1.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_perception', 'pythonpath')
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/hook/pythonpath.ps1'
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/hook/pythonpath.dsv'
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/hook/pythonpath.sh'
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_perception/bin'
+[1.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talkrbot_perception)
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/package.ps1'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/package.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/package.sh'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/package.bash'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception/package.zsh'
+[1.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vedantso/TalkrBot/install/talkrbot_perception/share/colcon-core/packages/talkrbot_perception)
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_aac' for CMake module files
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/talkrbot_aac' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_aac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_aac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_aac build --build-base /home/vedantso/TalkrBot/build/talkrbot_aac/build install --record /home/vedantso/TalkrBot/build/talkrbot_aac/install.log --single-version-externally-managed install_data --force
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_aac' for CMake config files
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_aac/lib'
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_aac/bin'
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_aac/lib/pkgconfig/talkrbot_aac.pc'
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_aac/lib/python3.10/site-packages'
+[1.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_aac', 'pythonpath')
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/hook/pythonpath.ps1'
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/hook/pythonpath.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/hook/pythonpath.sh'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_aac/bin'
+[1.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talkrbot_aac)
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/package.ps1'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/package.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/package.sh'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/package.bash'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac/package.zsh'
+[1.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vedantso/TalkrBot/install/talkrbot_aac/share/colcon-core/packages/talkrbot_aac)
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_nav' for CMake module files
+[1.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedantso/TalkrBot/talkrbot_nav' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_nav build --build-base /home/vedantso/TalkrBot/build/talkrbot_nav/build install --record /home/vedantso/TalkrBot/build/talkrbot_nav/install.log --single-version-externally-managed install_data --force
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_nav' for CMake config files
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_nav/lib'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_nav/bin'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_nav/lib/pkgconfig/talkrbot_nav.pc'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_nav/lib/python3.10/site-packages'
+[1.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('talkrbot_nav', 'pythonpath')
+[1.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/hook/pythonpath.ps1'
+[1.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/hook/pythonpath.dsv'
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/hook/pythonpath.sh'
+[1.813s] Level 1:colcon.colcon_core.environment:checking '/home/vedantso/TalkrBot/install/talkrbot_nav/bin'
+[1.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talkrbot_nav)
+[1.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/package.ps1'
+[1.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/package.dsv'
+[1.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/package.sh'
+[1.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/package.bash'
+[1.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedantso/TalkrBot/install/talkrbot_nav/share/talkrbot_nav/package.zsh'
+[1.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vedantso/TalkrBot/install/talkrbot_nav/share/colcon-core/packages/talkrbot_nav)
+[1.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.814s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.821s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.821s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.821s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.828s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vedantso/TalkrBot/install/local_setup.ps1'
+[1.829s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vedantso/TalkrBot/install/_local_setup_util_ps1.py'
+[1.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vedantso/TalkrBot/install/setup.ps1'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vedantso/TalkrBot/install/local_setup.sh'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vedantso/TalkrBot/install/_local_setup_util_sh.py'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vedantso/TalkrBot/install/setup.sh'
+[1.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vedantso/TalkrBot/install/local_setup.bash'
+[1.832s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vedantso/TalkrBot/install/setup.bash'
+[1.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vedantso/TalkrBot/install/local_setup.zsh'
+[1.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vedantso/TalkrBot/install/setup.zsh'

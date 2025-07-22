@@ -1,0 +1,28 @@
+[0.972s] Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_perception': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_perception/build
+[1.123s] running develop
+[1.211s] Removing /home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages/talkrbot-perception.egg-link (link to .)
+[1.232s] Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_perception' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_perception/build
+[1.233s] Invoking command in '/home/vedantso/TalkrBot/talkrbot_perception': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_perception build --build-base /home/vedantso/TalkrBot/build/talkrbot_perception/build install --record /home/vedantso/TalkrBot/build/talkrbot_perception/install.log --single-version-externally-managed install_data --force
+[1.366s] running egg_info
+[1.367s] writing ../build/talkrbot_perception/talkrbot_perception.egg-info/PKG-INFO
+[1.367s] writing dependency_links to ../build/talkrbot_perception/talkrbot_perception.egg-info/dependency_links.txt
+[1.367s] writing entry points to ../build/talkrbot_perception/talkrbot_perception.egg-info/entry_points.txt
+[1.367s] writing requirements to ../build/talkrbot_perception/talkrbot_perception.egg-info/requires.txt
+[1.367s] writing top-level names to ../build/talkrbot_perception/talkrbot_perception.egg-info/top_level.txt
+[1.368s] reading manifest file '../build/talkrbot_perception/talkrbot_perception.egg-info/SOURCES.txt'
+[1.368s] writing manifest file '../build/talkrbot_perception/talkrbot_perception.egg-info/SOURCES.txt'
+[1.368s] running build
+[1.368s] running build_py
+[1.368s] running install
+[1.368s] running install_lib
+[1.369s] creating /home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages/talkrbot_perception
+[1.369s] copying /home/vedantso/TalkrBot/build/talkrbot_perception/build/lib/talkrbot_perception/__init__.py -> /home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages/talkrbot_perception
+[1.369s] byte-compiling /home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages/talkrbot_perception/__init__.py to __init__.cpython-310.pyc
+[1.369s] running install_data
+[1.369s] copying resource/talkrbot_perception -> /home/vedantso/TalkrBot/install/talkrbot_perception/share/ament_index/resource_index/packages
+[1.369s] copying package.xml -> /home/vedantso/TalkrBot/install/talkrbot_perception/share/talkrbot_perception
+[1.369s] running install_egg_info
+[1.370s] Copying ../build/talkrbot_perception/talkrbot_perception.egg-info to /home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages/talkrbot_perception-0.0.0-py3.10.egg-info
+[1.371s] running install_scripts
+[1.382s] writing list of installed files to '/home/vedantso/TalkrBot/build/talkrbot_perception/install.log'
+[1.400s] Invoked command in '/home/vedantso/TalkrBot/talkrbot_perception' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talkrbot_perception build --build-base /home/vedantso/TalkrBot/build/talkrbot_perception/build install --record /home/vedantso/TalkrBot/build/talkrbot_perception/install.log --single-version-externally-managed install_data --force

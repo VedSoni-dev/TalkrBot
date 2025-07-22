@@ -1,0 +1,1 @@
+/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

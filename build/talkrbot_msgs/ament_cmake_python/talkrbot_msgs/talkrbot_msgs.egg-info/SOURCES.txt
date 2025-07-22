@@ -1,0 +1,8 @@
+setup.py
+talkrbot_msgs/__init__.py
+talkrbot_msgs.egg-info/PKG-INFO
+talkrbot_msgs.egg-info/SOURCES.txt
+talkrbot_msgs.egg-info/dependency_links.txt
+talkrbot_msgs.egg-info/top_level.txt
+talkrbot_msgs/msg/__init__.py
+talkrbot_msgs/msg/_aac_input.py
