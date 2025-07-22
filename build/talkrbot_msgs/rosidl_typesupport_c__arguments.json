@@ -3,7 +3,8 @@
   "output_dir": "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_c/talkrbot_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/AACInput.idl"
+    "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/AACInput.idl",
+    "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/TaskCommand.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -107,6 +108,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
     "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/AACInput.idl",
+    "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/TaskCommand.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

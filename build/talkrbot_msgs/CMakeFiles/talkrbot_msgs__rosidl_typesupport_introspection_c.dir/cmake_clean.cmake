@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c.o"
   "CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c.o.d"
+  "CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o"
+  "CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o.d"
   "libtalkrbot_msgs__rosidl_typesupport_introspection_c.pdb"
   "libtalkrbot_msgs__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c"
+  "rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

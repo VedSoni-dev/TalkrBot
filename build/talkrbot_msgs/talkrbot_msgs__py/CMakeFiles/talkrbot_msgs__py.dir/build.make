@@ -70,8 +70,10 @@ talkrbot_msgs__py/CMakeFiles/talkrbot_msgs__py: rosidl_generator_py/talkrbot_msg
 talkrbot_msgs__py/CMakeFiles/talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
 talkrbot_msgs__py/CMakeFiles/talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_c.c
 talkrbot_msgs__py/CMakeFiles/talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/msg/_aac_input.py
+talkrbot_msgs__py/CMakeFiles/talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/msg/_task_command.py
 talkrbot_msgs__py/CMakeFiles/talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/msg/__init__.py
 talkrbot_msgs__py/CMakeFiles/talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/msg/_aac_input_s.c
+talkrbot_msgs__py/CMakeFiles/talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/msg/_task_command_s.c
 
 rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +89,7 @@ rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtp
 rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/talkrbot_msgs/msg/AACInput.idl
+rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/talkrbot_msgs/msg/TaskCommand.idl
 rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -191,11 +194,17 @@ rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_c.c: ro
 rosidl_generator_py/talkrbot_msgs/msg/_aac_input.py: rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/talkrbot_msgs/msg/_aac_input.py
 
+rosidl_generator_py/talkrbot_msgs/msg/_task_command.py: rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/talkrbot_msgs/msg/_task_command.py
+
 rosidl_generator_py/talkrbot_msgs/msg/__init__.py: rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/talkrbot_msgs/msg/__init__.py
 
 rosidl_generator_py/talkrbot_msgs/msg/_aac_input_s.c: rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/talkrbot_msgs/msg/_aac_input_s.c
+
+rosidl_generator_py/talkrbot_msgs/msg/_task_command_s.c: rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/talkrbot_msgs/msg/_task_command_s.c
 
 talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_c.c
 talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -203,6 +212,8 @@ talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_
 talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/msg/__init__.py
 talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/msg/_aac_input.py
 talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/msg/_aac_input_s.c
+talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/msg/_task_command.py
+talkrbot_msgs__py: rosidl_generator_py/talkrbot_msgs/msg/_task_command_s.c
 talkrbot_msgs__py: talkrbot_msgs__py/CMakeFiles/talkrbot_msgs__py
 talkrbot_msgs__py: talkrbot_msgs__py/CMakeFiles/talkrbot_msgs__py.dir/build.make
 .PHONY : talkrbot_msgs__py

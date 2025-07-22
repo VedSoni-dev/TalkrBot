@@ -250,4 +250,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_g
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
  /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.h
+ /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__type_support.h
+ /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__struct.h
+ /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.h
 

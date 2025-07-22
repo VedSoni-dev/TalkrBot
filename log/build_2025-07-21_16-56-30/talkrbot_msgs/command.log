@@ -1,2 +1,0 @@
-Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_msgs': /usr/bin/cmake /home/vedantso/TalkrBot/talkrbot_msgs -DCMAKE_INSTALL_PREFIX=/home/vedantso/TalkrBot/install/talkrbot_msgs
-Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_msgs' returned '1': /usr/bin/cmake /home/vedantso/TalkrBot/talkrbot_msgs -DCMAKE_INSTALL_PREFIX=/home/vedantso/TalkrBot/install/talkrbot_msgs

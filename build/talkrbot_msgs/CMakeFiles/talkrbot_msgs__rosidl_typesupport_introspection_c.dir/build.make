@@ -78,6 +78,7 @@ rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_ty
 rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h: rosidl_adapter/talkrbot_msgs/msg/AACInput.idl
+rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h: rosidl_adapter/talkrbot_msgs/msg/TaskCommand.idl
 rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -173,8 +174,14 @@ rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_ty
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c: rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c
+
+rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c: rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c
 
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c.o: CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c.o: rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c
@@ -190,14 +197,30 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c -o CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c.s
 
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o: CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o: rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o: CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o -MF CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o.d -o CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o -c /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c
+
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c > CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.i
+
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c -o CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.s
+
 # Object files for target talkrbot_msgs__rosidl_typesupport_introspection_c
 talkrbot_msgs__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c.o"
+"CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c.o" \
+"CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o"
 
 # External object files for target talkrbot_msgs__rosidl_typesupport_introspection_c
 talkrbot_msgs__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libtalkrbot_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c.o
+libtalkrbot_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c.o
 libtalkrbot_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/build.make
 libtalkrbot_msgs__rosidl_typesupport_introspection_c.so: libtalkrbot_msgs__rosidl_generator_c.so
 libtalkrbot_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
@@ -212,7 +235,7 @@ libtalkrbot_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/lib
 libtalkrbot_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libtalkrbot_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libtalkrbot_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libtalkrbot_msgs__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libtalkrbot_msgs__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -225,6 +248,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_c.h
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/aac_input__type_support.c
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__rosidl_typesupport_introspection_c.h
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/talkrbot_msgs/msg/detail/task_command__type_support.c
 	cd /home/vedantso/TalkrBot/build/talkrbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vedantso/TalkrBot/talkrbot_msgs /home/vedantso/TalkrBot/talkrbot_msgs /home/vedantso/TalkrBot/build/talkrbot_msgs /home/vedantso/TalkrBot/build/talkrbot_msgs /home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c.dir/depend
 

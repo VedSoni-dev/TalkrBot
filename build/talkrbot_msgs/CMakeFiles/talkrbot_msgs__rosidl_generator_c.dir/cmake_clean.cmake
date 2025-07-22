@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c.o"
   "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c.o.d"
+  "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.c.o"
+  "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.c.o.d"
   "libtalkrbot_msgs__rosidl_generator_c.pdb"
   "libtalkrbot_msgs__rosidl_generator_c.so"
   "rosidl_generator_c/talkrbot_msgs/msg/aac_input.h"
@@ -8,6 +10,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.h"
   "rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__struct.h"
   "rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__type_support.h"
+  "rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.c"
+  "rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.h"
+  "rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__struct.h"
+  "rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__type_support.h"
+  "rosidl_generator_c/talkrbot_msgs/msg/task_command.h"
 )
 
 # Per-language clean rules from dependency scanning.

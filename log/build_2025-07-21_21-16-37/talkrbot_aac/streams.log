@@ -1,0 +1,24 @@
+[1.080s] Invoking command in '/home/vedantso/TalkrBot/build/talkrbot_aac': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_aac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_aac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_aac/build --no-deps symlink_data
+[1.245s] running develop
+[1.335s] running egg_info
+[1.335s] creating talkrbot_aac.egg-info
+[1.335s] writing talkrbot_aac.egg-info/PKG-INFO
+[1.335s] writing dependency_links to talkrbot_aac.egg-info/dependency_links.txt
+[1.335s] writing entry points to talkrbot_aac.egg-info/entry_points.txt
+[1.335s] writing requirements to talkrbot_aac.egg-info/requires.txt
+[1.335s] writing top-level names to talkrbot_aac.egg-info/top_level.txt
+[1.335s] writing manifest file 'talkrbot_aac.egg-info/SOURCES.txt'
+[1.336s] reading manifest file 'talkrbot_aac.egg-info/SOURCES.txt'
+[1.337s] writing manifest file 'talkrbot_aac.egg-info/SOURCES.txt'
+[1.339s] running build_ext
+[1.339s] Creating /home/vedantso/TalkrBot/install/talkrbot_aac/lib/python3.10/site-packages/talkrbot-aac.egg-link (link to .)
+[1.339s] Installing aac_node script to /home/vedantso/TalkrBot/install/talkrbot_aac/lib/talkrbot_aac
+[1.339s] 
+[1.340s] Installed /home/vedantso/TalkrBot/build/talkrbot_aac
+[1.340s] running symlink_data
+[1.340s] creating /home/vedantso/TalkrBot/install/talkrbot_aac/share/ament_index
+[1.340s] creating /home/vedantso/TalkrBot/install/talkrbot_aac/share/ament_index/resource_index
+[1.340s] creating /home/vedantso/TalkrBot/install/talkrbot_aac/share/ament_index/resource_index/packages
+[1.341s] symbolically linking /home/vedantso/TalkrBot/build/talkrbot_aac/resource/talkrbot_aac -> /home/vedantso/TalkrBot/install/talkrbot_aac/share/ament_index/resource_index/packages
+[1.341s] symbolically linking /home/vedantso/TalkrBot/build/talkrbot_aac/package.xml -> /home/vedantso/TalkrBot/install/talkrbot_aac/share/talkrbot_aac
+[1.371s] Invoked command in '/home/vedantso/TalkrBot/build/talkrbot_aac' returned '0': PYTHONPATH=/home/vedantso/TalkrBot/build/talkrbot_aac/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedantso/TalkrBot/install/talkrbot_aac/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vedantso/TalkrBot/build/talkrbot_aac/build --no-deps symlink_data

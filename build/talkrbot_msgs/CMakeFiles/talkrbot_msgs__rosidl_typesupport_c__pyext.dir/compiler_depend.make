@@ -248,8 +248,15 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ta
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.h
+  rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.h \
+  rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__type_support.h \
+  rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__struct.h \
+  rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.h
 
+
+rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__struct.h:
+
+rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__type_support.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -504,6 +511,8 @@ rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.h:
 /usr/include/python3.10/pymacconfig.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.h:
 
 /usr/include/python3.10/floatobject.h:
 

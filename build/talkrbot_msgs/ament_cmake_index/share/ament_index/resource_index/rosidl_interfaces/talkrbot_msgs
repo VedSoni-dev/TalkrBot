@@ -1,2 +1,4 @@
 msg/AACInput.idl
 msg/AACInput.msg
+msg/TaskCommand.idl
+msg/TaskCommand.msg
