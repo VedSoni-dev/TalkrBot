@@ -16,12 +16,12 @@ async def send_aac_message(uri, message):
 if __name__ == "__main__":
     # Edit this message for future tests
     test_message = {
-        "text": "turn on lights",
+        "text": "water yummy more",
         "user_id": "vedant",
-        "metadata": {"source": "web"}
+        "metadata": json.dumps({"source": "web"})
     }
     # Convert metadata to JSON string if your server expects a string
     if isinstance(test_message.get("metadata"), dict):
         test_message["metadata"] = json.dumps(test_message["metadata"])
     
-    asyncio.run(send_aac_message("ws://localhost:8765", test_message)) 
+    asyncio.run(send_aac_message("ws://localhost:8765", test_message))

@@ -7,6 +7,10 @@ import uuid
 import json
 from datetime import datetime
 from rclpy.time import Time
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Gemini API
 import google.generativeai as genai
@@ -31,7 +35,7 @@ class LLMNode(Node):
         # Set up Gemini API
         try:
             genai.configure(api_key=get_gemini_api_key())
-            self.model = genai.GenerativeModel('gemini-pro')
+            self.model = genai.GenerativeModel('gemini-2.5-flash')
         except Exception as e:
             self.get_logger().error(f'Failed to initialize Gemini API: {e}')
             self.model = None
@@ -85,12 +89,12 @@ class LLMNode(Node):
     def publish_task_command(self, data, aac_msg):
         try:
             msg = TaskCommand()
-            msg.task = data.get('task', '')
-            msg.object = data.get('object', '')
-            msg.location = data.get('location', '')
-            msg.parameters = data.get('parameters', '{}')
+            msg.task = str(data.get('task', ''))
+            msg.object = str(data.get('object', ''))
+            msg.location = str(data.get('location', ''))
+            msg.parameters = str(data.get('parameters', '{}'))
             msg.confidence = float(data.get('confidence', 0.0))
-            msg.command_id = data.get('command_id', str(uuid.uuid4()))
+            msg.command_id = str(data.get('command_id', str(uuid.uuid4())))
             # Use current time if not provided
             if 'timestamp' in data:
                 try:

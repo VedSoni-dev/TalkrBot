@@ -15,5 +15,6 @@ nohup: ignoring input
 127.0.0.1 - - [21/Jul/2025 21:08:05] "POST /aac_input HTTP/1.1" 200 -
 [INFO] [1753150091.672603906] [aac_node]: Received input from ros_topic: user_id=ros_user, text='hello ros'
 [INFO] [1753150110.832610640] [aac_node]: Received input from ros_topic: user_id=ros_user, text='hello ros'
- user_id=ros_user, text='hello ros'
+[ros2run]: Killed
+ text='hello ros'
 [INFO] [1753150110.832909678] [aac_node]: Received input from ros_topic: user_id=ros_user, text='hello ros'
