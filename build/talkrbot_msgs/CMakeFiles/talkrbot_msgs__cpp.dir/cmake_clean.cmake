@@ -5,10 +5,15 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__struct.hpp"
   "rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__traits.hpp"
   "rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__type_support.hpp"
+  "rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__builder.hpp"
+  "rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__struct.hpp"
+  "rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__traits.hpp"
+  "rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__type_support.hpp"
   "rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__builder.hpp"
   "rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__struct.hpp"
   "rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__traits.hpp"
   "rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__type_support.hpp"
+  "rosidl_generator_cpp/talkrbot_msgs/msg/detected_object.hpp"
   "rosidl_generator_cpp/talkrbot_msgs/msg/task_command.hpp"
 )
 

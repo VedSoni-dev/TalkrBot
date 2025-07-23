@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/talkrbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/talkrbot_msgs/msg/_aac_input_s.c.o"
   "CMakeFiles/talkrbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/talkrbot_msgs/msg/_aac_input_s.c.o.d"
+  "CMakeFiles/talkrbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/talkrbot_msgs/msg/_detected_object_s.c.o"
+  "CMakeFiles/talkrbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/talkrbot_msgs/msg/_detected_object_s.c.o.d"
   "CMakeFiles/talkrbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/talkrbot_msgs/msg/_task_command_s.c.o"
   "CMakeFiles/talkrbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/talkrbot_msgs/msg/_task_command_s.c.o.d"
   "rosidl_generator_py/talkrbot_msgs/libtalkrbot_msgs__rosidl_generator_py.pdb"

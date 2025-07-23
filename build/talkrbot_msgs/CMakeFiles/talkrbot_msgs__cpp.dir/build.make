@@ -76,6 +76,11 @@ CMakeFiles/talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/tas
 CMakeFiles/talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__struct.hpp
 CMakeFiles/talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__traits.hpp
 CMakeFiles/talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__type_support.hpp
+CMakeFiles/talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detected_object.hpp
+CMakeFiles/talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__builder.hpp
+CMakeFiles/talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__struct.hpp
+CMakeFiles/talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__traits.hpp
+CMakeFiles/talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__type_support.hpp
 CMakeFiles/talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -95,6 +100,7 @@ rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp: /opt/ros/humble/share/rosi
 rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp: rosidl_adapter/talkrbot_msgs/msg/AACInput.idl
 rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp: rosidl_adapter/talkrbot_msgs/msg/TaskCommand.idl
+rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp: rosidl_adapter/talkrbot_msgs/msg/DetectedObject.idl
 rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -217,16 +223,36 @@ rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__traits.hpp: rosidl_g
 rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__type_support.hpp: rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__type_support.hpp
 
+rosidl_generator_cpp/talkrbot_msgs/msg/detected_object.hpp: rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/talkrbot_msgs/msg/detected_object.hpp
+
+rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__builder.hpp: rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__builder.hpp
+
+rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__struct.hpp: rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__struct.hpp
+
+rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__traits.hpp: rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__traits.hpp
+
+rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__type_support.hpp: rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__type_support.hpp
+
 talkrbot_msgs__cpp: CMakeFiles/talkrbot_msgs__cpp
 talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp
 talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__builder.hpp
 talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__struct.hpp
 talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__traits.hpp
 talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__type_support.hpp
+talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__builder.hpp
+talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__struct.hpp
+talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__traits.hpp
+talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__type_support.hpp
 talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__builder.hpp
 talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__struct.hpp
 talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__traits.hpp
 talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__type_support.hpp
+talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/detected_object.hpp
 talkrbot_msgs__cpp: rosidl_generator_cpp/talkrbot_msgs/msg/task_command.hpp
 talkrbot_msgs__cpp: CMakeFiles/talkrbot_msgs__cpp.dir/build.make
 .PHONY : talkrbot_msgs__cpp

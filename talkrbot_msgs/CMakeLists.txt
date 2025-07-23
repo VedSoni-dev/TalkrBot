@@ -16,6 +16,7 @@ find_package(builtin_interfaces REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AACInput.msg"
   "msg/TaskCommand.msg"
+  "msg/DetectedObject.msg"
   DEPENDENCIES std_msgs geometry_msgs sensor_msgs builtin_interfaces
 )
 

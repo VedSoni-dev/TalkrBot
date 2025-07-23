@@ -364,11 +364,17 @@ ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES 
 # install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/TaskCommand.idl" "DESTINATION" "share/talkrbot_msgs/msg")
 ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/TaskCommand.idl" "DESTINATION" "share/talkrbot_msgs/msg")
 
+# install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/DetectedObject.idl" "DESTINATION" "share/talkrbot_msgs/msg")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/DetectedObject.idl" "DESTINATION" "share/talkrbot_msgs/msg")
+
 # install(FILES "/home/vedantso/TalkrBot/talkrbot_msgs/msg/AACInput.msg" "DESTINATION" "share/talkrbot_msgs/msg")
 ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/talkrbot_msgs/msg/AACInput.msg" "DESTINATION" "share/talkrbot_msgs/msg")
 
 # install(FILES "/home/vedantso/TalkrBot/talkrbot_msgs/msg/TaskCommand.msg" "DESTINATION" "share/talkrbot_msgs/msg")
 ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/talkrbot_msgs/msg/TaskCommand.msg" "DESTINATION" "share/talkrbot_msgs/msg")
+
+# install(FILES "/home/vedantso/TalkrBot/talkrbot_msgs/msg/DetectedObject.msg" "DESTINATION" "share/talkrbot_msgs/msg")
+ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/talkrbot_msgs/msg/DetectedObject.msg" "DESTINATION" "share/talkrbot_msgs/msg")
 
 # install(FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/talkrbot_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/vedantso/TalkrBot/talkrbot_msgs" FILES "/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/talkrbot_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

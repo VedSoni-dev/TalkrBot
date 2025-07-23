@@ -68,6 +68,7 @@ include CMakeFiles/talkrbot_msgs.dir/progress.make
 
 CMakeFiles/talkrbot_msgs: /home/vedantso/TalkrBot/talkrbot_msgs/msg/AACInput.msg
 CMakeFiles/talkrbot_msgs: /home/vedantso/TalkrBot/talkrbot_msgs/msg/TaskCommand.msg
+CMakeFiles/talkrbot_msgs: /home/vedantso/TalkrBot/talkrbot_msgs/msg/DetectedObject.msg
 CMakeFiles/talkrbot_msgs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/talkrbot_msgs: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/talkrbot_msgs: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl

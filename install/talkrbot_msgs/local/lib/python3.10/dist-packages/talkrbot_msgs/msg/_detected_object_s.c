@@ -1,0 +1,1 @@
+/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/msg/_detected_object_s.c

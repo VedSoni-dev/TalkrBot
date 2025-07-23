@@ -1,4 +1,6 @@
 msg/AACInput.idl
 msg/AACInput.msg
+msg/DetectedObject.idl
+msg/DetectedObject.msg
 msg/TaskCommand.idl
 msg/TaskCommand.msg

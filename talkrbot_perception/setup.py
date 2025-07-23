@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'perception_node = talkrbot_perception.perception_node:main',
         ],
     },
 )

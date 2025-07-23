@@ -16,10 +16,15 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__struct.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__traits.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/aac_input__type_support.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
+  "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__builder.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
+  "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__struct.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
+  "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__traits.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
+  "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__type_support.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__builder.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__struct.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__traits.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__type_support.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
+  "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detected_object.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/task_command.hpp" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/aac_input.hpp"
   )
 

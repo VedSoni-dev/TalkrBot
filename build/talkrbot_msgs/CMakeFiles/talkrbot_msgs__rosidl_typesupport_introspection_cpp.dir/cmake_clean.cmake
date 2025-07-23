@@ -1,12 +1,16 @@
 file(REMOVE_RECURSE
   "CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/aac_input__type_support.cpp.o"
   "CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/aac_input__type_support.cpp.o.d"
+  "CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/detected_object__type_support.cpp.o"
+  "CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/detected_object__type_support.cpp.o.d"
   "CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/task_command__type_support.cpp.o"
   "CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/task_command__type_support.cpp.o.d"
   "libtalkrbot_msgs__rosidl_typesupport_introspection_cpp.pdb"
   "libtalkrbot_msgs__rosidl_typesupport_introspection_cpp.so"
   "rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/aac_input__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/detected_object__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/detected_object__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/talkrbot_msgs/msg/detail/task_command__type_support.cpp"
 )

@@ -79,6 +79,7 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input_
 rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp: rosidl_adapter/talkrbot_msgs/msg/AACInput.idl
 rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp: rosidl_adapter/talkrbot_msgs/msg/TaskCommand.idl
+rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp: rosidl_adapter/talkrbot_msgs/msg/DetectedObject.idl
 rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -183,6 +184,12 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/task_comma
 rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_typesupport_fastrtps_cpp.hpp
 
+rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/detected_object__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/detected_object__rosidl_typesupport_fastrtps_cpp.hpp
+
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp.o: CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp.o: CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
@@ -211,16 +218,32 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/task_command__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/task_command__type_support.cpp -o CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/task_command__type_support.cpp.s
 
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o: CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o: CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o -MF CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o.d -o CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o -c /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp
+
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp > CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.i
+
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp -o CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.s
+
 # Object files for target talkrbot_msgs__rosidl_typesupport_fastrtps_cpp
 talkrbot_msgs__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
 "CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp.o" \
-"CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/task_command__type_support.cpp.o"
+"CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/task_command__type_support.cpp.o" \
+"CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o"
 
 # External object files for target talkrbot_msgs__rosidl_typesupport_fastrtps_cpp
 talkrbot_msgs__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
 
 libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp.o
 libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/task_command__type_support.cpp.o
+libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o
 libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make
 libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -232,7 +255,7 @@ libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librmw
 libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librcutils.so
 libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libtalkrbot_msgs__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -245,7 +268,9 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/clean:
 
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/aac_input__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input__type_support.cpp
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/task_command__type_support.cpp
+CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/detected_object__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_typesupport_fastrtps_cpp.hpp
 	cd /home/vedantso/TalkrBot/build/talkrbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vedantso/TalkrBot/talkrbot_msgs /home/vedantso/TalkrBot/talkrbot_msgs /home/vedantso/TalkrBot/build/talkrbot_msgs /home/vedantso/TalkrBot/build/talkrbot_msgs /home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend

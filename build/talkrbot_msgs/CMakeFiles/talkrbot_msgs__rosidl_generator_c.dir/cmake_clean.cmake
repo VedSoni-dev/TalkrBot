@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c.o"
   "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c.o.d"
+  "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c.o"
+  "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c.o.d"
   "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.c.o"
   "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.c.o.d"
   "libtalkrbot_msgs__rosidl_generator_c.pdb"
@@ -10,10 +12,15 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.h"
   "rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__struct.h"
   "rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__type_support.h"
+  "rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c"
+  "rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.h"
+  "rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__struct.h"
+  "rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__type_support.h"
   "rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.c"
   "rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.h"
   "rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__struct.h"
   "rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__type_support.h"
+  "rosidl_generator_c/talkrbot_msgs/msg/detected_object.h"
   "rosidl_generator_c/talkrbot_msgs/msg/task_command.h"
 )
 
