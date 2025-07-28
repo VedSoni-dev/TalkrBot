@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'failure_handler_node = talkrbot_feedback.failure_handler_node:main',
+            'speech_node = talkrbot_feedback.speech_node:main',
         ],
     },
 )

@@ -3,6 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from talkrbot_msgs.msg import ExecutionFeedback, RefinedIntent
+from std_msgs.msg import String
 import google.generativeai as genai
 import os
 import json
@@ -29,10 +30,25 @@ class FailureHandlerNode(Node):
             10
         )
         
+        # Subscribe to speech responses
+        self.speech_response_subscription = self.create_subscription(
+            String,
+            '/speech_response',
+            self.speech_response_callback,
+            10
+        )
+        
         # Publisher for new refined intent suggestions
         self.intent_publisher = self.create_publisher(
             RefinedIntent,
             '/refined_intent',
+            10
+        )
+        
+        # Publisher for speech commands
+        self.speech_publisher = self.create_publisher(
+            String,
+            '/speak_command',
             10
         )
         
@@ -42,6 +58,8 @@ class FailureHandlerNode(Node):
         # Track current task context
         self.current_intent = None
         self.failed_steps = []
+        self.waiting_for_speech_response = False
+        self.pending_suggestion = None
         
         self.get_logger().info('FailureHandlerNode initialized and subscribed to /execution_feedback')
         
@@ -66,6 +84,32 @@ class FailureHandlerNode(Node):
         self.current_intent = msg
         self.failed_steps = []  # Reset failed steps for new intent
         self.get_logger().info(f'📋 Tracking new intent: {msg.intent}')
+    
+    def speech_response_callback(self, msg):
+        """Handle user response to speech question"""
+        try:
+            response = msg.data
+            self.get_logger().info(f'👤 [SPEECH] User responded: "{response}"')
+            
+            if self.waiting_for_speech_response and self.pending_suggestion:
+                self.waiting_for_speech_response = False
+                
+                # Process the user response
+                if response.lower() in ['yes', 'okay', 'sure', 'juice', 'milk', 'water']:
+                    # User agreed to the suggestion
+                    self.get_logger().info('✅ [SPEECH] User agreed to suggestion, publishing alternative intent')
+                    self.publish_alternative_intent(self.pending_suggestion, self.build_failure_context_from_pending())
+                elif response.lower() in ['no', 'cancel', 'stop', 'timeout_no_response']:
+                    # User declined or timeout
+                    self.get_logger().info('❌ [SPEECH] User declined suggestion or timeout')
+                else:
+                    # User provided a different response, try to interpret it
+                    self.handle_user_alternative_response(response)
+                
+                self.pending_suggestion = None
+                
+        except Exception as e:
+            self.get_logger().error(f'Error processing speech response: {e}')
     
     def feedback_callback(self, msg):
         """Process execution feedback and handle failures"""
@@ -98,12 +142,63 @@ class FailureHandlerNode(Node):
             # Get response from Gemini
             response = self.get_gemini_suggestion(prompt)
             
-            # Parse and publish new intent
+            # Handle the response with speech interaction
             if response:
-                self.publish_alternative_intent(response, context)
+                self.handle_suggestion_with_speech(response, context)
                 
         except Exception as e:
             self.get_logger().error(f'Error handling failure: {e}')
+    
+    def handle_suggestion_with_speech(self, suggestion, context):
+        """Handle suggestion with speech interaction"""
+        try:
+            message = suggestion.get('message', '')
+            
+            if message and self.is_question(message):
+                # Speak the question and wait for response
+                self.waiting_for_speech_response = True
+                self.pending_suggestion = suggestion
+                
+                # Publish speech command
+                speech_msg = String()
+                speech_msg.data = message
+                self.speech_publisher.publish(speech_msg)
+                
+                self.get_logger().info(f'🗣️ [SPEECH] Speaking question: "{message}"')
+            else:
+                # No question, just publish the alternative intent directly
+                self.publish_alternative_intent(suggestion, context)
+                
+        except Exception as e:
+            self.get_logger().error(f'Error handling suggestion with speech: {e}')
+    
+    def is_question(self, text):
+        """Check if text contains a question"""
+        question_indicators = ['?', 'should', 'would', 'could', 'instead', 'alternative']
+        return any(indicator in text.lower() for indicator in question_indicators)
+    
+    def handle_user_alternative_response(self, response):
+        """Handle when user provides a different response"""
+        try:
+            # Try to interpret the user's response as a new intent
+            self.get_logger().info(f'🤔 [SPEECH] Interpreting user response: "{response}"')
+            
+            # For now, just log it. In a full implementation, this could use Gemini
+            # to interpret the response and generate a new intent
+            
+        except Exception as e:
+            self.get_logger().error(f'Error handling user alternative response: {e}')
+    
+    def build_failure_context_from_pending(self):
+        """Build context from pending suggestion"""
+        return {
+            'failed_step': 'unknown',
+            'failure_reason': 'user_response',
+            'current_intent': self.current_intent.intent if self.current_intent else "unknown",
+            'user_location': self.current_intent.user_location if self.current_intent else "unknown",
+            'priority': "high",
+            'failed_steps_count': len(self.failed_steps)
+        }
     
     def build_failure_context(self, failed_msg):
         """Build context about the failure"""
