@@ -19,6 +19,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/msg/_aac_input_s.c" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/msg/_detected_object.py" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/msg/_detected_object_s.c" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/msg/_refined_intent.py" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/msg/_refined_intent_s.c" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/msg/_task_command.py" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/msg/_task_command_s.c" "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )

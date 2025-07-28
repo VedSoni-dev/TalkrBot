@@ -2,6 +2,7 @@ import os
 import rclpy
 from rclpy.node import Node
 from talkrbot_msgs.msg import AACInput, TaskCommand
+from talkrbot_msgs.msg import DetectedObject
 from std_msgs.msg import String
 import uuid
 import json

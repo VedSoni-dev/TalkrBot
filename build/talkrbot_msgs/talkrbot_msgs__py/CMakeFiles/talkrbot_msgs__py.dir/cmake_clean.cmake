@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/talkrbot_msgs/msg/_aac_input_s.c"
   "../rosidl_generator_py/talkrbot_msgs/msg/_detected_object.py"
   "../rosidl_generator_py/talkrbot_msgs/msg/_detected_object_s.c"
+  "../rosidl_generator_py/talkrbot_msgs/msg/_refined_intent.py"
+  "../rosidl_generator_py/talkrbot_msgs/msg/_refined_intent_s.c"
   "../rosidl_generator_py/talkrbot_msgs/msg/_task_command.py"
   "../rosidl_generator_py/talkrbot_msgs/msg/_task_command_s.c"
   "CMakeFiles/talkrbot_msgs__py"

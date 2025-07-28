@@ -10,6 +10,8 @@ setup.py
 ../build/talkrbot_llm/talkrbot_llm.egg-info/zip-safe
 resource/talkrbot_llm
 talkrbot_llm/__init__.py
+talkrbot_llm/groot_planner_node.py
+talkrbot_llm/intent_refiner_node.py
 talkrbot_llm/llm_node.py
 test/test_copyright.py
 test/test_flake8.py

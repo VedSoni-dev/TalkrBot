@@ -85,6 +85,7 @@ rosidl_generator_c/talkrbot_msgs/msg/aac_input.h: /opt/ros/humble/share/rosidl_g
 rosidl_generator_c/talkrbot_msgs/msg/aac_input.h: rosidl_adapter/talkrbot_msgs/msg/AACInput.idl
 rosidl_generator_c/talkrbot_msgs/msg/aac_input.h: rosidl_adapter/talkrbot_msgs/msg/TaskCommand.idl
 rosidl_generator_c/talkrbot_msgs/msg/aac_input.h: rosidl_adapter/talkrbot_msgs/msg/DetectedObject.idl
+rosidl_generator_c/talkrbot_msgs/msg/aac_input.h: rosidl_adapter/talkrbot_msgs/msg/RefinedIntent.idl
 rosidl_generator_c/talkrbot_msgs/msg/aac_input.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/talkrbot_msgs/msg/aac_input.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_c/talkrbot_msgs/msg/aac_input.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -213,6 +214,18 @@ rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__struct.h: rosidl_ge
 rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__type_support.h: rosidl_generator_c/talkrbot_msgs/msg/aac_input.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__type_support.h
 
+rosidl_generator_c/talkrbot_msgs/msg/refined_intent.h: rosidl_generator_c/talkrbot_msgs/msg/aac_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/talkrbot_msgs/msg/refined_intent.h
+
+rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.h: rosidl_generator_c/talkrbot_msgs/msg/aac_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.h
+
+rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__struct.h: rosidl_generator_c/talkrbot_msgs/msg/aac_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__struct.h
+
+rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__type_support.h: rosidl_generator_c/talkrbot_msgs/msg/aac_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__type_support.h
+
 rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c: rosidl_generator_c/talkrbot_msgs/msg/aac_input.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c
 
@@ -221,6 +234,9 @@ rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.c: rosidl_ge
 
 rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c: rosidl_generator_c/talkrbot_msgs/msg/aac_input.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c
+
+rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c: rosidl_generator_c/talkrbot_msgs/msg/aac_input.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c
 
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c.o: CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c.o: rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c
@@ -264,11 +280,26 @@ CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c -o CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c.s
 
+CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.o: CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.o: rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c
+CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.o: CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.o -MF CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.o.d -o CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.o -c /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c
+
+CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c > CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.i
+
+CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c -o CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.s
+
 # Object files for target talkrbot_msgs__rosidl_generator_c
 talkrbot_msgs__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c.o" \
 "CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.c.o" \
-"CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c.o"
+"CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c.o" \
+"CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.o"
 
 # External object files for target talkrbot_msgs__rosidl_generator_c
 talkrbot_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -276,6 +307,7 @@ talkrbot_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
 libtalkrbot_msgs__rosidl_generator_c.so: CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__functions.c.o
 libtalkrbot_msgs__rosidl_generator_c.so: CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.c.o
 libtalkrbot_msgs__rosidl_generator_c.so: CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.c.o
+libtalkrbot_msgs__rosidl_generator_c.so: CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c.o
 libtalkrbot_msgs__rosidl_generator_c.so: CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/build.make
 libtalkrbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libtalkrbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -284,7 +316,7 @@ libtalkrbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfac
 libtalkrbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libtalkrbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libtalkrbot_msgs__rosidl_generator_c.so: CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libtalkrbot_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libtalkrbot_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -304,11 +336,16 @@ CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talk
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.h
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__struct.h
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__type_support.h
+CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.c
+CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.h
+CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__struct.h
+CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__type_support.h
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.c
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.h
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__struct.h
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__type_support.h
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/detected_object.h
+CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/refined_intent.h
 CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/talkrbot_msgs/msg/task_command.h
 	cd /home/vedantso/TalkrBot/build/talkrbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vedantso/TalkrBot/talkrbot_msgs /home/vedantso/TalkrBot/talkrbot_msgs /home/vedantso/TalkrBot/build/talkrbot_msgs /home/vedantso/TalkrBot/build/talkrbot_msgs /home/vedantso/TalkrBot/build/talkrbot_msgs/CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/talkrbot_msgs__rosidl_generator_c.dir/depend

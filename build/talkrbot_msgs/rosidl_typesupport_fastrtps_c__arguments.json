@@ -5,7 +5,8 @@
   "idl_tuples": [
     "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/AACInput.idl",
     "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/TaskCommand.idl",
-    "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/DetectedObject.idl"
+    "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/DetectedObject.idl",
+    "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/RefinedIntent.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -113,6 +114,7 @@
     "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/AACInput.idl",
     "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/TaskCommand.idl",
     "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/DetectedObject.idl",
+    "/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs/msg/RefinedIntent.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

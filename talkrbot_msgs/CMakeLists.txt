@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AACInput.msg"
   "msg/TaskCommand.msg"
   "msg/DetectedObject.msg"
+  "msg/RefinedIntent.msg"
   DEPENDENCIES std_msgs geometry_msgs sensor_msgs builtin_interfaces
 )
 

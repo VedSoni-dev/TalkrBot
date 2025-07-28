@@ -218,4 +218,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_genera
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
- /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.h
+ /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.h \
+ /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__type_support.h \
+ /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__struct.h \
+ /home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.h
