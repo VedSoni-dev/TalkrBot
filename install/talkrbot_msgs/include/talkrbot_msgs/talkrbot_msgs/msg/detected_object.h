@@ -1,1 +1,0 @@
-/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_c/talkrbot_msgs/msg/detected_object.h

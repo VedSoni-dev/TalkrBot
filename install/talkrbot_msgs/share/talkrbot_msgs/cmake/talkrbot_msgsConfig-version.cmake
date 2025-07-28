@@ -1,1 +1,0 @@
-/home/vedantso/TalkrBot/build/talkrbot_msgs/ament_cmake_core/talkrbot_msgsConfig-version.cmake

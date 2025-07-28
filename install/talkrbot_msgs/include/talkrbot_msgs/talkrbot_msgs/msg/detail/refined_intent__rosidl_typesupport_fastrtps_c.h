@@ -1,1 +1,0 @@
-/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_c/talkrbot_msgs/msg/detail/refined_intent__rosidl_typesupport_fastrtps_c.h

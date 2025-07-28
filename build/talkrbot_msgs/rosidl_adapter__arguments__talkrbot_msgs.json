@@ -1,9 +1,0 @@
-{
-  "package_name": "talkrbot_msgs",
-  "non_idl_tuples": [
-    "/home/vedantso/TalkrBot/talkrbot_msgs:msg/AACInput.msg",
-    "/home/vedantso/TalkrBot/talkrbot_msgs:msg/TaskCommand.msg",
-    "/home/vedantso/TalkrBot/talkrbot_msgs:msg/DetectedObject.msg",
-    "/home/vedantso/TalkrBot/talkrbot_msgs:msg/RefinedIntent.msg"
-  ]
-}

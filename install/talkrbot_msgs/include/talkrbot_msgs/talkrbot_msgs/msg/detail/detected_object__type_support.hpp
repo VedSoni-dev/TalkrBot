@@ -1,1 +1,0 @@
-/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__type_support.hpp

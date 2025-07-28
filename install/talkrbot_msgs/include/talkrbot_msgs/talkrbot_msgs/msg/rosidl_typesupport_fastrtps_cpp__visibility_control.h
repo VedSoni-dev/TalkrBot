@@ -1,1 +1,0 @@
-/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
