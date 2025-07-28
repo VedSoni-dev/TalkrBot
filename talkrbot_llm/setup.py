@@ -23,6 +23,7 @@ setup(
             'llm_node = talkrbot_llm.llm_node:main',
             'intent_refiner_node = talkrbot_llm.intent_refiner_node:main',
             'groot_planner_node = talkrbot_llm.groot_planner_node:main',
+            'memory_node = talkrbot_llm.memory_node:main',
         ],
     },
 )
