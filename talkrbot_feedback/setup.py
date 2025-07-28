@@ -24,6 +24,8 @@ setup(
             'failure_handler_node = talkrbot_feedback.failure_handler_node:main',
             'speech_node = talkrbot_feedback.speech_node:main',
             'user_profile_manager = talkrbot_feedback.user_profile_manager:main',
+            'task_history_manager = talkrbot_feedback.task_history_manager:main',
+            'history_query_node = talkrbot_feedback.history_query_node:main',
         ],
     },
 )

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "talkrbot_msgs__py",
+		"source" : "/home/vedantso/TalkrBot/build/talkrbot_msgs/talkrbot_msgs__py"
+	}
+}

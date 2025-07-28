@@ -1,0 +1,5 @@
+/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/AACInput.idl
+/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/TaskCommand.idl
+/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/DetectedObject.idl
+/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/RefinedIntent.idl
+/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_adapter/talkrbot_msgs:msg/ExecutionFeedback.idl

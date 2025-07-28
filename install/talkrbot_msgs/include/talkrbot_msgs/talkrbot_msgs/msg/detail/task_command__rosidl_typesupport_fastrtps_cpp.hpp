@@ -1,0 +1,1 @@
+/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_typesupport_fastrtps_cpp.hpp

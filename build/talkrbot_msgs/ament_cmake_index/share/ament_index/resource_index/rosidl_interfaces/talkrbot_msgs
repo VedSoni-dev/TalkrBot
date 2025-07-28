@@ -1,0 +1,10 @@
+msg/AACInput.idl
+msg/AACInput.msg
+msg/DetectedObject.idl
+msg/DetectedObject.msg
+msg/ExecutionFeedback.idl
+msg/ExecutionFeedback.msg
+msg/RefinedIntent.idl
+msg/RefinedIntent.msg
+msg/TaskCommand.idl
+msg/TaskCommand.msg

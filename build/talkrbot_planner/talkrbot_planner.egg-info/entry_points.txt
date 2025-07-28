@@ -1,0 +1,3 @@
+[console_scripts]
+skill_executor_node = talkrbot_planner.skill_executor_node:main
+

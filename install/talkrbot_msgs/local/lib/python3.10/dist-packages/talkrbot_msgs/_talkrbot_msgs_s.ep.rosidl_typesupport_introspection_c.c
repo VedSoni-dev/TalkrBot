@@ -1,0 +1,1 @@
+/home/vedantso/TalkrBot/build/talkrbot_msgs/rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_introspection_c.c

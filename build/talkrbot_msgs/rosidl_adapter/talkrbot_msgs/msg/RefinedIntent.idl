@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from talkrbot_msgs/msg/RefinedIntent.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module talkrbot_msgs {
+  module msg {
+    struct RefinedIntent {
+      @verbatim (language="comment", text=
+        "The final interpreted task (e.g. \"bring blanket\")")
+      string intent;
+
+      @verbatim (language="comment", text=
+        "Optional, like \"couch\" or \"living room\"")
+      string user_location;
+
+      @verbatim (language="comment", text=
+        "e.g., \"high\", \"normal\"")
+      string priority;
+
+      @verbatim (language="comment", text=
+        "The raw AAC input text")
+      string original_text;
+
+      builtin_interfaces::msg::Time timestamp;
+    };
+  };
+};
