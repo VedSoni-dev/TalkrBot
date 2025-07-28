@@ -1,11 +1,14 @@
 import rclpy
 from rclpy.node import Node
 from talkrbot_msgs.msg import AACInput, RefinedIntent
+from std_msgs.msg import String
 import google.generativeai as genai
 import json
 import os
 import uuid
 from builtin_interfaces.msg import Time
+from pathlib import Path
+from typing import Dict, Optional
 
 class IntentRefinerNode(Node):
     def __init__(self):
@@ -33,7 +36,17 @@ class IntentRefinerNode(Node):
         # Track if we're currently processing an override
         self.processing_override = False
         
+        # Load user profiles
+        self.profiles = self.load_user_profiles()
+        self.current_user = "default"
+        self.user_identification_keywords = {
+            "vedant": ["vedant", "cold", "blue", "apple juice", "quiet"],
+            "sarah": ["sarah", "warm", "red", "tea", "cozy"],
+            "alex": ["alex", "coffee", "efficient", "quick", "gray"]
+        }
+        
         self.get_logger().info('IntentRefinerNode initialized and subscribed to /aac_input and /refined_intent')
+        self.get_logger().info(f'Loaded profiles for: {list(self.profiles.keys())}')
         
         # Set up Gemini API
         try:
@@ -46,6 +59,61 @@ class IntentRefinerNode(Node):
         except Exception as e:
             self.get_logger().error(f'Failed to initialize Gemini API: {e}')
             self.model = None
+    
+    def load_user_profiles(self) -> Dict:
+        """Load user profiles from JSON file"""
+        try:
+            # Try multiple possible paths for the config file
+            possible_paths = [
+                # Source directory path
+                Path(__file__).parent.parent.parent / 'talkrbot_feedback' / 'config' / 'user_profiles.json',
+                # Install directory path
+                Path(__file__).parent.parent.parent / 'talkrbot_feedback' / 'config' / 'user_profiles.json',
+                # Direct path from workspace
+                Path('/home/vedantso/TalkrBot/talkrbot_feedback/config/user_profiles.json'),
+            ]
+            
+            config_path = None
+            for path in possible_paths:
+                if path.exists():
+                    config_path = path
+                    break
+            
+            if not config_path:
+                self.get_logger().error(f'User profiles file not found in any of these locations: {[str(p) for p in possible_paths]}')
+                return {"default": self.get_default_profile()}
+            
+            with open(config_path, 'r') as f:
+                profiles = json.load(f)
+            
+            self.get_logger().info(f'Successfully loaded {len(profiles)} user profiles from {config_path}')
+            return profiles
+            
+        except Exception as e:
+            self.get_logger().error(f'Error loading user profiles: {e}')
+            return {"default": self.get_default_profile()}
+    
+    def get_default_profile(self) -> Dict:
+        """Get default user profile"""
+        return {
+            "likes": ["helpful assistance", "comfort", "reliability"],
+            "dislikes": ["confusion", "unreliability"],
+            "preferred_drinks": ["water", "juice"],
+            "preferred_blankets": ["any available blanket"],
+            "default_location": "unknown",
+            "comfort_phrases": ["I'm here to help", "Let me assist you"],
+            "communication_style": "neutral",
+            "temperature_preference": "moderate",
+            "accessibility_needs": ["basic assistance"]
+        }
+    
+    def identify_user(self, text: str) -> str:
+        """Identify user based on keywords in the text"""
+        for user, keywords in self.user_identification_keywords.items():
+            if any(keyword in text.lower() for keyword in keywords):
+                return user
+        
+        return self.current_user  # Keep current user if no new identification
 
     def aac_input_callback(self, msg):
         """Process AAC input from user and refine intent"""
@@ -58,9 +126,16 @@ class IntentRefinerNode(Node):
             return
         
         try:
-            # Build the prompt for intent refinement
-            prompt = self.build_prompt(msg.text)
-            self.get_logger().info(f'Processing AAC input: "{msg.text}"')
+            # Identify user based on input
+            identified_user = self.identify_user(msg.text)
+            
+            if identified_user != self.current_user:
+                self.current_user = identified_user
+                self.get_logger().info(f'👤 [PROFILE] Identified user: {self.current_user}')
+            
+            # Build the personalized prompt for intent refinement
+            prompt = self.build_prompt_with_profile(msg.text, self.current_user)
+            self.get_logger().info(f'Processing AAC input: "{msg.text}" for user: {self.current_user}')
             
             # Get response from Gemini
             response = self.model.generate_content(prompt)
@@ -100,17 +175,48 @@ class IntentRefinerNode(Node):
         self.get_logger().info('🔄 [OVERRIDE] Reset override flag, ready for new AAC input')
 
     def build_prompt(self, aac_text):
-        prompt = f"""The user is using an AAC system and selected the phrase: '{aac_text}'. Please translate this into a clear, robot-actionable task.
+        """Legacy prompt builder (kept for compatibility)"""
+        return self.build_prompt_with_profile(aac_text, "default")
+    
+    def build_prompt_with_profile(self, aac_text: str, user_id: str) -> str:
+        """Build personalized prompt using user profile"""
+        profile = self.profiles.get(user_id, self.profiles["default"])
+        
+        # Extract key preferences
+        likes = ", ".join(profile.get("likes", []))
+        dislikes = ", ".join(profile.get("dislikes", []))
+        preferred_drinks = ", ".join(profile.get("preferred_drinks", []))
+        preferred_blankets = ", ".join(profile.get("preferred_blankets", []))
+        default_location = profile.get("default_location", "unknown")
+        communication_style = profile.get("communication_style", "neutral")
+        
+        prompt = f"""The user {user_id.title()} is using an AAC system and selected the phrase: '{aac_text}'.
+
+**User Profile:**
+- Likes: {likes}
+- Dislikes: {dislikes}
+- Preferred drinks: {preferred_drinks}
+- Preferred blankets: {preferred_blankets}
+- Default location: {default_location}
+- Communication style: {communication_style}
+
+Please translate this into a clear, robot-actionable task that considers the user's preferences.
+
+**Guidelines:**
+- If they ask for a drink, prefer their favorite drinks
+- If they ask for a blanket, prefer their preferred blankets
+- If location is not specified, use their default location
+- Consider their likes/dislikes when interpreting requests
 
 Respond ONLY in JSON format with these fields:
-- intent: The specific robot action (e.g., "bring blanket", "go to user", "turn on lights")
-- user_location: Where the user is or wants the action (e.g., "couch", "bedroom", "kitchen") - use "unknown" if not specified
+- intent: The specific robot action (e.g., "bring apple juice", "go to living room", "turn on lights")
+- user_location: Where the user is or wants the action - use their default location if not specified
 - priority: "high", "normal", or "low" based on urgency
 
 Example response:
 {{
-  "intent": "bring blanket",
-  "user_location": "couch", 
+  "intent": "bring apple juice",
+  "user_location": "living room", 
   "priority": "high"
 }}"""
         return prompt
