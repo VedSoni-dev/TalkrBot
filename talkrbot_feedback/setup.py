@@ -10,6 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/config', ['config/user_profiles.json']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -22,6 +23,7 @@ setup(
         'console_scripts': [
             'failure_handler_node = talkrbot_feedback.failure_handler_node:main',
             'speech_node = talkrbot_feedback.speech_node:main',
+            'user_profile_manager = talkrbot_feedback.user_profile_manager:main',
         ],
     },
 )
