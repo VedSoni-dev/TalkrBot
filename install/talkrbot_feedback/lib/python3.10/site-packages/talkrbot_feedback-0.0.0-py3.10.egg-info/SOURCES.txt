@@ -14,6 +14,7 @@ talkrbot_feedback/__init__.py
 talkrbot_feedback/failure_handler_node.py
 talkrbot_feedback/history_query_node.py
 talkrbot_feedback/intent_refiner_node.py
+talkrbot_feedback/semantic_history_query.py
 talkrbot_feedback/speech_node.py
 talkrbot_feedback/task_history_manager.py
 talkrbot_feedback/user_profile_manager.py

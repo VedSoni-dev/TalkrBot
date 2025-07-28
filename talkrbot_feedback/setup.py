@@ -12,7 +12,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/config', ['config/user_profiles.json']),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools', 'scikit-learn', 'numpy'],
     zip_safe=True,
     maintainer='vedantso',
     maintainer_email='ved.06.soni@gmail.com',
@@ -26,6 +26,7 @@ setup(
             'user_profile_manager = talkrbot_feedback.user_profile_manager:main',
             'task_history_manager = talkrbot_feedback.task_history_manager:main',
             'history_query_node = talkrbot_feedback.history_query_node:main',
+            'semantic_history_query_node = talkrbot_feedback.semantic_history_query:main',
         ],
     },
 )

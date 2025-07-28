@@ -1,6 +1,7 @@
 [console_scripts]
 failure_handler_node = talkrbot_feedback.failure_handler_node:main
 history_query_node = talkrbot_feedback.history_query_node:main
+semantic_history_query_node = talkrbot_feedback.semantic_history_query:main
 speech_node = talkrbot_feedback.speech_node:main
 task_history_manager = talkrbot_feedback.task_history_manager:main
 user_profile_manager = talkrbot_feedback.user_profile_manager:main
