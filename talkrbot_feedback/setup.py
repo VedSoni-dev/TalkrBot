@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'failure_handler_node = talkrbot_feedback.failure_handler_node:main',
         ],
     },
 )
