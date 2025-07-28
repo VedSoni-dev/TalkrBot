@@ -143,8 +143,8 @@ class MemoryNode(Node):
                 
                 if existing:
                     # Update existing pattern
-                    total_attempts = existing[5] + 1
-                    successful_attempts = existing[6] + (1 if msg.status == "success" else 0)
+                    total_attempts = int(existing[5]) + 1
+                    successful_attempts = int(existing[6]) + (1 if msg.status == "success" else 0)
                     success_rate = successful_attempts / total_attempts
                     
                     # Update common failures
