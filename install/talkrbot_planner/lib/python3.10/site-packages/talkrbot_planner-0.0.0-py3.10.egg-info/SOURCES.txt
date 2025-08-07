@@ -11,6 +11,7 @@ setup.py
 resource/talkrbot_planner
 talkrbot_planner/__init__.py
 talkrbot_planner/skill_executor_node.py
+talkrbot_planner/skill_executor_node_simple.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

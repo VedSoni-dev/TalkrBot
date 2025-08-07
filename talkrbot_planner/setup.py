@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'skill_executor_node = talkrbot_planner.skill_executor_node:main',
+            'skill_executor_node_simple = talkrbot_planner.skill_executor_node_simple:main',
         ],
     },
 )

@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'mock_robot_node = talkrbot_nav.mock_robot_node:main',
         ],
     },
 )

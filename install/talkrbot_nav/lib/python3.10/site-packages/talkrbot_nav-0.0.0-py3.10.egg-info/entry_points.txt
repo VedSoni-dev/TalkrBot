@@ -1,3 +1,3 @@
 [console_scripts]
-
+mock_robot_node = talkrbot_nav.mock_robot_node:main
 
