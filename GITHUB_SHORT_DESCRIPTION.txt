@@ -1,0 +1,1 @@
+🤖 LLM-powered assistive robot that translates vague AAC phrases into precise robot behaviors using Google Gemini AI. Built on ROS 2 Humble with Nav2 navigation, YOLOv8 perception, and personalized user profiles. Supports WebSocket/REST/ROS interfaces with intelligent failure recovery and task memory. 
