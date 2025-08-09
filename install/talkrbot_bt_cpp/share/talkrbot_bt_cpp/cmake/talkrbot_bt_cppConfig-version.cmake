@@ -1,0 +1,1 @@
+/home/vedantso/TalkrBot/build/talkrbot_bt_cpp/ament_cmake_core/talkrbot_bt_cppConfig-version.cmake

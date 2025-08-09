@@ -4,3 +4,6 @@ source;share/talkrbot_aac/hook/pythonpath.sh
 source;share/talkrbot_aac/hook/ament_prefix_path.ps1
 source;share/talkrbot_aac/hook/ament_prefix_path.dsv
 source;share/talkrbot_aac/hook/ament_prefix_path.sh
+source;../../build/talkrbot_aac/share/talkrbot_aac/hook/pythonpath_develop.ps1
+source;../../build/talkrbot_aac/share/talkrbot_aac/hook/pythonpath_develop.dsv
+source;../../build/talkrbot_aac/share/talkrbot_aac/hook/pythonpath_develop.sh

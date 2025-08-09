@@ -1,3 +1,0 @@
-[console_scripts]
-aac_node = talkrbot_aac.aac_node:main
-

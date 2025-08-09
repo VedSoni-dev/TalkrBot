@@ -262,8 +262,13 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_g
   rosidl_generator_c/talkrbot_msgs/msg/detail/detected_object__functions.h \
   rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__type_support.h \
   rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__struct.h \
-  rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.h
+  rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.h \
+  rosidl_generator_c/talkrbot_msgs/msg/detail/execution_feedback__type_support.h \
+  rosidl_generator_c/talkrbot_msgs/msg/detail/execution_feedback__struct.h \
+  rosidl_generator_c/talkrbot_msgs/msg/detail/execution_feedback__functions.h
 
+
+rosidl_generator_c/talkrbot_msgs/msg/detail/execution_feedback__struct.h:
 
 rosidl_generator_c/talkrbot_msgs/msg/detail/refined_intent__functions.h:
 
@@ -390,6 +395,8 @@ rosidl_generator_py/talkrbot_msgs/_talkrbot_msgs_s.ep.rosidl_typesupport_introsp
 /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+rosidl_generator_c/talkrbot_msgs/msg/detail/execution_feedback__functions.h:
 
 /usr/include/limits.h:
 
@@ -764,6 +771,8 @@ rosidl_generator_c/talkrbot_msgs/msg/detail/task_command__functions.h:
 /usr/include/python3.10/bytearrayobject.h:
 
 /usr/include/python3.10/eval.h:
+
+rosidl_generator_c/talkrbot_msgs/msg/detail/execution_feedback__type_support.h:
 
 rosidl_generator_c/talkrbot_msgs/msg/detail/aac_input__struct.h:
 

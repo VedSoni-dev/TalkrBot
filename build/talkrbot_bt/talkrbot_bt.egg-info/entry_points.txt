@@ -1,0 +1,3 @@
+[console_scripts]
+bt_executor_node = talkrbot_bt.bt_executor_node:main
+

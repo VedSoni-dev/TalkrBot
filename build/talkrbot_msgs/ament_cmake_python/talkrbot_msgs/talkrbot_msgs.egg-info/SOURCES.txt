@@ -7,5 +7,6 @@ talkrbot_msgs.egg-info/top_level.txt
 talkrbot_msgs/msg/__init__.py
 talkrbot_msgs/msg/_aac_input.py
 talkrbot_msgs/msg/_detected_object.py
+talkrbot_msgs/msg/_execution_feedback.py
 talkrbot_msgs/msg/_refined_intent.py
 talkrbot_msgs/msg/_task_command.py

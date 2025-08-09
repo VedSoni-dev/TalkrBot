@@ -1,0 +1,15 @@
+source;share/talkrbot_bt/hook/path.ps1
+source;share/talkrbot_bt/hook/path.dsv
+source;share/talkrbot_bt/hook/path.sh
+source;share/talkrbot_bt/hook/pythonpath.ps1
+source;share/talkrbot_bt/hook/pythonpath.dsv
+source;share/talkrbot_bt/hook/pythonpath.sh
+source;share/talkrbot_bt/hook/pythonscriptspath.ps1
+source;share/talkrbot_bt/hook/pythonscriptspath.dsv
+source;share/talkrbot_bt/hook/pythonscriptspath.sh
+source;share/talkrbot_bt/hook/ament_prefix_path.ps1
+source;share/talkrbot_bt/hook/ament_prefix_path.dsv
+source;share/talkrbot_bt/hook/ament_prefix_path.sh
+source;../../build/talkrbot_bt/share/talkrbot_bt/hook/pythonpath_develop.ps1
+source;../../build/talkrbot_bt/share/talkrbot_bt/hook/pythonpath_develop.dsv
+source;../../build/talkrbot_bt/share/talkrbot_bt/hook/pythonpath_develop.sh

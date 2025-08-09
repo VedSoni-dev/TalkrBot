@@ -1,0 +1,2 @@
+/home/vedantso/TalkrBot/install/talkrbot_bt_cpp/share/talkrbot_bt_cpp/bt/package.xml
+/home/vedantso/TalkrBot/install/talkrbot_bt_cpp/share/talkrbot_bt_cpp/bt/bring_object.xml

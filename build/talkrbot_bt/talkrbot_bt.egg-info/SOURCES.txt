@@ -1,0 +1,13 @@
+package.xml
+setup.py
+../talkrbot_bt/bring_object.xml
+resource/talkrbot_bt
+talkrbot_bt/__init__.py
+talkrbot_bt/bt_executor_node.py
+talkrbot_bt.egg-info/PKG-INFO
+talkrbot_bt.egg-info/SOURCES.txt
+talkrbot_bt.egg-info/dependency_links.txt
+talkrbot_bt.egg-info/entry_points.txt
+talkrbot_bt.egg-info/requires.txt
+talkrbot_bt.egg-info/top_level.txt
+talkrbot_bt.egg-info/zip-safe

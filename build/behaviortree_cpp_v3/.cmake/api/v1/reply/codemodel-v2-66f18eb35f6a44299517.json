@@ -1,0 +1,386 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-ee01472b785611ae7224.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						25
+					]
+				},
+				{
+					"build" : "sample_nodes",
+					"jsonFile" : "directory-sample_nodes-RelWithDebInfo-57c1ce803c6aed08dc8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sample_nodes",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						15
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-tests-RelWithDebInfo-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-RelWithDebInfo-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						13,
+						14
+					]
+				},
+				{
+					"build" : "tools",
+					"jsonFile" : "directory-tools-RelWithDebInfo-f9645b0170a45a75eff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-RelWithDebInfo-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5
+					],
+					"name" : "behaviortree_cpp_v3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "behaviortree_cpp_v3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-behaviortree_cpp_v3-RelWithDebInfo-2d579b6472bc88bb00cd.json",
+					"name" : "behaviortree_cpp_v3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "behaviortree_cpp_v3_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-behaviortree_cpp_v3_test-RelWithDebInfo-c8481864a25831f99402.json",
+					"name" : "behaviortree_cpp_v3_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "behaviortree_cpp_v3_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-behaviortree_cpp_v3_uninstall-RelWithDebInfo-f2d4e726fcce02c2b65c.json",
+					"name" : "behaviortree_cpp_v3_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bt3_log_cat::@b9a00e55f22b3d77656c",
+					"jsonFile" : "target-bt3_log_cat-RelWithDebInfo-d9a40782fa6a21367660.json",
+					"name" : "bt3_log_cat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bt3_plugin_manifest::@b9a00e55f22b3d77656c",
+					"jsonFile" : "target-bt3_plugin_manifest-RelWithDebInfo-6130200febe4732958ba.json",
+					"name" : "bt3_plugin_manifest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bt3_recorder::@b9a00e55f22b3d77656c",
+					"jsonFile" : "target-bt3_recorder-RelWithDebInfo-fb90d677e0f24cf8a0d4.json",
+					"name" : "bt3_recorder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bt_sample_nodes::@d0f5e8c1325556e9a2c1",
+					"jsonFile" : "target-bt_sample_nodes-RelWithDebInfo-d1bca1908081ca55c179.json",
+					"name" : "bt_sample_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "crossdoor_nodes_dyn::@d0f5e8c1325556e9a2c1",
+					"jsonFile" : "target-crossdoor_nodes_dyn-RelWithDebInfo-8fc657a7719dd24362f3.json",
+					"name" : "crossdoor_nodes_dyn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dummy_nodes_dyn::@d0f5e8c1325556e9a2c1",
+					"jsonFile" : "target-dummy_nodes_dyn-RelWithDebInfo-942c2f0cec96a803c445.json",
+					"name" : "dummy_nodes_dyn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ex01_wrap_legacy::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex01_wrap_legacy-RelWithDebInfo-c4670bc04d755491ef35.json",
+					"name" : "ex01_wrap_legacy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ex02_runtime_ports::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex02_runtime_ports-RelWithDebInfo-0dfda4267cf5d1c18b35.json",
+					"name" : "ex02_runtime_ports",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ex03_ncurses_manual_selector::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex03_ncurses_manual_selector-RelWithDebInfo-6e44e253b2dfed0050cb.json",
+					"name" : "ex03_ncurses_manual_selector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ex04_waypoints::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex04_waypoints-RelWithDebInfo-260d829f6d45d81a8739.json",
+					"name" : "ex04_waypoints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-RelWithDebInfo-fa64090ffe3e124763ee.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-RelWithDebInfo-035f9e878f8f1f8fec95.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "movebase_node_dyn::@d0f5e8c1325556e9a2c1",
+					"jsonFile" : "target-movebase_node_dyn-RelWithDebInfo-587ee03d9c69cfb1ecb4.json",
+					"name" : "movebase_node_dyn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "t01_first_tree_dynamic::@714eac15f71a94114fdf",
+					"jsonFile" : "target-t01_first_tree_dynamic-RelWithDebInfo-1eb8067542baaa439c74.json",
+					"name" : "t01_first_tree_dynamic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "t01_first_tree_static::@714eac15f71a94114fdf",
+					"jsonFile" : "target-t01_first_tree_static-RelWithDebInfo-e2013e9f0ed0a77e8fc4.json",
+					"name" : "t01_first_tree_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "t02_basic_ports::@714eac15f71a94114fdf",
+					"jsonFile" : "target-t02_basic_ports-RelWithDebInfo-094a7a4389a716731bc8.json",
+					"name" : "t02_basic_ports",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "t03_generic_ports::@714eac15f71a94114fdf",
+					"jsonFile" : "target-t03_generic_ports-RelWithDebInfo-827d7850195cb835c7fb.json",
+					"name" : "t03_generic_ports",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "t04_reactive_sequence::@714eac15f71a94114fdf",
+					"jsonFile" : "target-t04_reactive_sequence-RelWithDebInfo-4cd3ef22722ec13764a9.json",
+					"name" : "t04_reactive_sequence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "t05_crossdoor::@714eac15f71a94114fdf",
+					"jsonFile" : "target-t05_crossdoor-RelWithDebInfo-54483ce5bc0484abe3db.json",
+					"name" : "t05_crossdoor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "t06_subtree_port_remapping::@714eac15f71a94114fdf",
+					"jsonFile" : "target-t06_subtree_port_remapping-RelWithDebInfo-bf6e9a090c830be78b19.json",
+					"name" : "t06_subtree_port_remapping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "t07_load_multiple_xml::@714eac15f71a94114fdf",
+					"jsonFile" : "target-t07_load_multiple_xml-RelWithDebInfo-b80a68f2007502f010af.json",
+					"name" : "t07_load_multiple_xml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "t08_additional_node_args::@714eac15f71a94114fdf",
+					"jsonFile" : "target-t08_additional_node_args-RelWithDebInfo-811ea8ade88bbc9969b8.json",
+					"name" : "t08_additional_node_args",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-5b49a9dbeb94ad2c12f7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vedantso/TalkrBot/build/behaviortree_cpp_v3",
+		"source" : "/home/vedantso/TalkrBot/src/BehaviorTree.CPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
