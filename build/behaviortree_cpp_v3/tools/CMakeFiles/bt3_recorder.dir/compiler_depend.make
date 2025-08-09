@@ -28,6 +28,8 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/iostream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -45,6 +47,7 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -144,8 +147,11 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/c++/11/cerrno \
@@ -207,6 +213,7 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -220,6 +227,8 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
@@ -312,11 +321,19 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/c++/11/bits/allocated_ptr.h:
 
-/usr/include/c++/11/backward/binders.h:
+/usr/include/c++/11/bit:
 
-/usr/include/c++/11/iostream:
+/usr/include/c++/11/bits/align.h:
 
-/usr/include/c++/11/algorithm:
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/c++/11/limits:
+
+/usr/include/c++/11/ratio:
+
+/usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
@@ -336,15 +353,7 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/home/vedantso/TalkrBot/src/BehaviorTree.CPP/include/behaviortree_cpp_v3/flatbuffers/BT_logger_generated.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/c++/11/ext/atomicity.h:
 
@@ -414,7 +423,19 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/c++/11/ext/type_traits.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+
+/usr/include/c++/11/streambuf:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/usr/include/unistd.h:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
@@ -450,12 +471,6 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
 /usr/include/c++/11/ext/numeric_traits.h:
 
 /usr/include/features.h:
@@ -467,14 +482,6 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/usr/include/unistd.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/c++/11/cwchar:
 
 /usr/include/c++/11/bits/std_function.h:
 
@@ -490,7 +497,17 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/assert.h:
 
-/usr/include/c++/11/bit:
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/home/vedantso/TalkrBot/src/BehaviorTree.CPP/3rdparty/cppzmq/zmq.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
@@ -508,6 +525,10 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/c++/11/exception:
 
+/usr/include/c++/11/chrono:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
@@ -518,15 +539,35 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/stdio.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/c++/11/backward/binders.h:
+
+/home/vedantso/TalkrBot/src/BehaviorTree.CPP/include/behaviortree_cpp_v3/flatbuffers/BT_logger_generated.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/c++/11/algorithm:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -539,6 +580,10 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/c++/11/type_traits:
+
+/usr/include/c++/11/memory:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/11/tuple:
 
@@ -558,15 +603,9 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/11/ctime:
-
-/usr/include/c++/11/initializer_list:
-
-/usr/include/c++/11/iosfwd:
 
 /usr/include/wchar.h:
 
@@ -574,13 +613,15 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
 /usr/include/c++/11/bits/nested_exception.h:
 
-/usr/include/c++/11/iterator:
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/c++/11/bits/range_access.h:
+/usr/include/c++/11/bits/concept_check.h:
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
@@ -598,13 +639,15 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/c++/11/bits/hash_bytes.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+/usr/include/c++/11/iterator:
 
-/usr/include/c++/11/bits/concept_check.h:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/c++/11/bits/range_access.h:
 
-/usr/include/c++/11/streambuf:
+/usr/include/c++/11/iosfwd:
+
+/usr/include/c++/11/initializer_list:
 
 /usr/include/stdc-predef.h:
 
@@ -638,15 +681,17 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
+/usr/include/c++/11/cwchar:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /home/vedantso/TalkrBot/src/BehaviorTree.CPP/include/behaviortree_cpp_v3/flatbuffers/flatbuffers.h:
 
 /usr/include/alloca.h:
 
+/usr/include/c++/11/cwctype:
+
 /usr/include/c++/11/cstdio:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/11/chrono:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -694,6 +739,10 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/c++/11/stdexcept:
 
+/usr/include/string.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
 /usr/include/c++/11/bits/basic_ios.h:
@@ -702,15 +751,9 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/c++/11/bits/locale_facets.h:
 
-/usr/include/c++/11/cwctype:
-
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -770,7 +813,7 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/c++/11/vector:
 
-/usr/include/c++/11/bits/align.h:
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
@@ -784,12 +827,6 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
-/home/vedantso/TalkrBot/src/BehaviorTree.CPP/3rdparty/cppzmq/zmq.hpp:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/string.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/zmq.h:
@@ -801,8 +838,6 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/c++/11/cstring:
-
-/usr/include/c++/11/ratio:
 
 /usr/include/c++/11/bits/stl_relops.h:
 
@@ -834,14 +869,6 @@ tools/CMakeFiles/bt3_recorder.dir/bt_recorder.cpp.o: /home/vedantso/TalkrBot/src
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/c++/11/limits:
-
-/usr/include/c++/11/bits/parse_numbers.h:
-
-/usr/include/c++/11/memory:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:

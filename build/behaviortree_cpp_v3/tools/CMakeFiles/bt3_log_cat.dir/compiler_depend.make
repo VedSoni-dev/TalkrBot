@@ -28,6 +28,8 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/iostream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -45,6 +47,7 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -144,8 +147,11 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/c++/11/cerrno \
@@ -204,6 +210,8 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
@@ -241,6 +249,7 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /home/vedantso/TalkrBot/src/BehaviorTree.CPP/include/behaviortree_cpp_v3/flatbuffers/stl_emulation.h \
@@ -254,6 +263,8 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 /home/vedantso/TalkrBot/src/BehaviorTree.CPP/include/behaviortree_cpp_v3/flatbuffers/stl_emulation.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
@@ -293,8 +304,6 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 
 /usr/include/c++/11/vector:
 
-/usr/include/string.h:
-
 /usr/include/c++/11/cstring:
 
 /home/vedantso/TalkrBot/src/BehaviorTree.CPP/include/behaviortree_cpp_v3/flatbuffers/flatbuffers.h:
@@ -325,13 +334,9 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
-/usr/include/c++/11/bits/locale_facets.tcc:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/c++/11/cwctype:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
@@ -373,7 +378,13 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 
 /usr/include/c++/11/bits/std_abs.h:
 
+/usr/include/c++/11/cwctype:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
@@ -397,13 +408,11 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
-/usr/include/c++/11/streambuf:
+/usr/include/c++/11/initializer_list:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/c++/11/cstddef:
 
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+/usr/include/c++/11/bits/range_access.h:
 
 /usr/include/c++/11/bits/hash_bytes.h:
 
@@ -425,11 +434,11 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 
 /usr/include/c++/11/bits/exception.h:
 
-/usr/include/c++/11/cstddef:
-
-/usr/include/c++/11/bits/range_access.h:
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
@@ -439,19 +448,11 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 
 /usr/include/wchar.h:
 
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/home/vedantso/TalkrBot/src/BehaviorTree.CPP/tools/bt_log_cat.cpp:
-
 /usr/include/c++/11/iosfwd:
 
 /usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
@@ -468,6 +469,8 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 /usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/11/tuple:
 
@@ -489,15 +492,33 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/algorithm:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/c++/11/backward/binders.h:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/c++/11/initializer_list:
 
 /usr/include/stdio.h:
 
@@ -508,6 +529,12 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/home/vedantso/TalkrBot/src/BehaviorTree.CPP/tools/bt_log_cat.cpp:
 
 /usr/include/c++/11/exception:
 
@@ -523,6 +550,20 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
 /usr/include/c++/11/bit:
 
 /usr/include/assert.h:
@@ -536,12 +577,6 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/c++/11/cwchar:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -562,12 +597,6 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 /usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
@@ -599,11 +628,21 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 
 /usr/include/c++/11/bits/ios_base.h:
 
-/usr/include/stdc-predef.h:
+/usr/include/c++/11/cwchar:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/c++/11/streambuf:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
@@ -699,10 +738,6 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
 /usr/include/c++/11/ext/new_allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -732,11 +767,3 @@ tools/CMakeFiles/bt3_log_cat.dir/bt_log_cat.cpp.o: /home/vedantso/TalkrBot/src/B
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
-
-/usr/include/c++/11/algorithm:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/c++/11/backward/binders.h:

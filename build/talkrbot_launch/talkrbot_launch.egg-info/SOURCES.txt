@@ -1,0 +1,10 @@
+package.xml
+setup.py
+launch/demo_pipeline.launch.py
+resource/talkrbot_launch
+talkrbot_launch.egg-info/PKG-INFO
+talkrbot_launch.egg-info/SOURCES.txt
+talkrbot_launch.egg-info/dependency_links.txt
+talkrbot_launch.egg-info/requires.txt
+talkrbot_launch.egg-info/top_level.txt
+talkrbot_launch.egg-info/zip-safe

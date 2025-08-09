@@ -60,49 +60,8 @@ class SkillExecutorNode(Node):
             'remote': {'x': 0.35, 'y': 0.0, 'z': 0.2, 'gripper': 'open'}
         }
         
-        # Location to pose mapping
-        self.location_poses = {
-            'kitchen': PoseStamped(
-                header=None,
-                pose=PoseStamped().pose
-            ),
-            'closet': PoseStamped(
-                header=None,
-                pose=PoseStamped().pose
-            ),
-            'living_room': PoseStamped(
-                header=None,
-                pose=PoseStamped().pose
-            ),
-            'bedroom': PoseStamped(
-                header=None,
-                pose=PoseStamped().pose
-            ),
-            'bathroom': PoseStamped(
-                header=None,
-                pose=PoseStamped().pose
-            ),
-            'fridge': PoseStamped(
-                header=None,
-                pose=PoseStamped().pose
-            ),
-            'user': PoseStamped(
-                header=None,
-                pose=PoseStamped().pose
-            ),
-            'table': PoseStamped(
-                header=None,
-                pose=PoseStamped().pose
-            ),
-            'couch': PoseStamped(
-                header=None,
-                pose=PoseStamped().pose
-            ),
-            'desk': PoseStamped(
-                header=None,
-                pose=PoseStamped().pose
-            )
-        }
+        # Location to pose mapping (populated in _initialize_location_poses)
+        self.location_poses = {}
         
         # Initialize location poses with default coordinates
         self._initialize_location_poses()

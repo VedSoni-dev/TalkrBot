@@ -72,6 +72,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -79,7 +80,9 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -125,6 +128,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -178,6 +182,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -204,6 +210,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /opt/ros/humble/include/fastcdr/fastcdr/FastBuffer.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cstddef \
   /opt/ros/humble/include/fastcdr/fastcdr/exceptions/NotEnoughMemoryException.h \
   /opt/ros/humble/include/fastcdr/fastcdr/exceptions/Exception.h \
@@ -316,6 +324,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -323,7 +332,9 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -369,6 +380,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -422,6 +434,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -453,6 +467,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /opt/ros/humble/include/fastcdr/fastcdr/FastBuffer.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cstddef \
   /opt/ros/humble/include/fastcdr/fastcdr/exceptions/NotEnoughMemoryException.h \
   /opt/ros/humble/include/fastcdr/fastcdr/exceptions/Exception.h \
@@ -565,6 +581,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -572,7 +589,9 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -618,6 +637,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -671,6 +691,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -697,6 +719,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /opt/ros/humble/include/fastcdr/fastcdr/FastBuffer.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cstddef \
   /opt/ros/humble/include/fastcdr/fastcdr/exceptions/NotEnoughMemoryException.h \
   /opt/ros/humble/include/fastcdr/fastcdr/exceptions/Exception.h \
@@ -809,6 +833,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -816,7 +841,9 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -862,6 +889,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -915,6 +943,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -941,6 +971,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /opt/ros/humble/include/fastcdr/fastcdr/FastBuffer.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cstddef \
   /opt/ros/humble/include/fastcdr/fastcdr/exceptions/NotEnoughMemoryException.h \
   /opt/ros/humble/include/fastcdr/fastcdr/exceptions/Exception.h \
@@ -1053,6 +1085,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1060,7 +1093,9 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -1106,6 +1141,7 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -1159,6 +1195,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1185,6 +1223,8 @@ CMakeFiles/talkrbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
   /opt/ros/humble/include/fastcdr/fastcdr/FastBuffer.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cstddef \
   /opt/ros/humble/include/fastcdr/fastcdr/exceptions/NotEnoughMemoryException.h \
   /opt/ros/humble/include/fastcdr/fastcdr/exceptions/Exception.h \
@@ -1231,13 +1271,21 @@ rosidl_generator_cpp/talkrbot_msgs/msg/detail/task_command__struct.hpp:
 
 rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_typesupport_fastrtps_cpp.hpp:
 
+rosidl_generator_cpp/talkrbot_msgs/msg/detail/refined_intent__struct.hpp:
+
+rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/refined_intent__rosidl_typesupport_fastrtps_cpp.hpp:
+
+rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/refined_intent__type_support.cpp:
+
+rosidl_generator_cpp/talkrbot_msgs/msg/detail/execution_feedback__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/wchar.h:
 
@@ -1248,10 +1296,6 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_ty
 /usr/include/c++/11/bits/stl_algobase.h:
 
 /usr/include/c++/11/bits/postypes.h:
-
-/usr/include/c++/11/cwchar:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
 
 /usr/include/c++/11/bits/stringfwd.h:
 
@@ -1283,10 +1327,6 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_ty
 
 /usr/include/c++/11/map:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/typeinfo:
-
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
@@ -1301,6 +1341,10 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_ty
 
 /usr/include/c++/11/ext/new_allocator.h:
 
+rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/task_command__type_support.cpp:
+
+/usr/include/c++/11/bits/invoke.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
@@ -1311,19 +1355,31 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_ty
 
 /usr/include/c++/11/bits/allocated_ptr.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/11/cwchar:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
+/usr/include/c++/11/bits/basic_string.h:
+
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
-/usr/include/c++/11/bits/basic_string.h:
+rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/execution_feedback__rosidl_typesupport_fastrtps_cpp.hpp:
+
+/usr/include/c++/11/bits/functexcept.h:
 
 /usr/include/c++/11/streambuf:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
 
 /usr/include/c++/11/tuple:
 
@@ -1332,6 +1388,10 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/task_command__rosidl_ty
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/11/cwctype:
+
+/usr/include/malloc.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
@@ -1368,6 +1428,8 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/rosidl_typesupport_fastrtps_cp
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
@@ -1461,6 +1523,8 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/aac_input__rosidl_types
 
 /usr/include/stdio.h:
 
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
 /usr/include/c++/11/memory:
 
 /usr/include/c++/11/bits/stl_heap.h:
@@ -1513,6 +1577,10 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/aac_input_
 
 /usr/include/locale.h:
 
+rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/execution_feedback__type_support.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
 /usr/include/c++/11/bits/stl_algo.h:
 
 rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__struct.hpp:
@@ -1527,9 +1595,11 @@ rosidl_generator_cpp/talkrbot_msgs/msg/detail/detected_object__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/c++/11/bits/invoke.h:
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
-rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/task_command__type_support.cpp:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/typeinfo:
 
 /usr/include/c++/11/bits/refwrap.h:
 
@@ -1601,6 +1671,18 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_o
 
 /usr/include/c++/11/cstdio:
 
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/c++/11/cerrno:
@@ -1630,6 +1712,8 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_o
 /usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/system_error:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -1665,10 +1749,6 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_o
 
 /opt/ros/humble/include/fastcdr/fastcdr/config.h:
 
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/string.h:
-
 /opt/ros/humble/include/fastcdr/fastcdr/exceptions/Exception.h:
 
 /usr/include/c++/11/bits/stl_map.h:
@@ -1701,17 +1781,9 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_o
 
 /usr/include/c++/11/bits/locale_facets.h:
 
-/usr/include/c++/11/cwctype:
-
-/usr/include/malloc.h:
-
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
@@ -1728,19 +1800,3 @@ rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/detected_o
 /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/visibility_control.h:
 
 /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/execution_feedback__type_support.cpp:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/execution_feedback__rosidl_typesupport_fastrtps_cpp.hpp:
-
-rosidl_generator_cpp/talkrbot_msgs/msg/detail/execution_feedback__struct.hpp:
-
-rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/dds_fastrtps/refined_intent__type_support.cpp:
-
-rosidl_typesupport_fastrtps_cpp/talkrbot_msgs/msg/detail/refined_intent__rosidl_typesupport_fastrtps_cpp.hpp:
-
-rosidl_generator_cpp/talkrbot_msgs/msg/detail/refined_intent__struct.hpp:

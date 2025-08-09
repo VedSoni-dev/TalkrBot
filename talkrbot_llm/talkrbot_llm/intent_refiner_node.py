@@ -150,22 +150,30 @@ class IntentRefinerNode(Node):
             self.get_logger().error(f'Error processing AAC input: {e}')
     
     def override_intent_callback(self, msg):
-        """Process override intents from failure handler"""
+        """Process override intents from failure handler.
+        Ignore intents that were published by this node (normal refined intents),
+        and only react to messages explicitly tagged as overrides.
+        """
         try:
+            # Only handle messages that originated from the failure handler
+            if not getattr(msg, 'original_text', '').startswith('override_from_failure_handler'):
+                return
+
             # Check if this is a high-priority override (from failure handler)
             if msg.priority == "high":
-                self.processing_override = True
-                self.get_logger().info(f'🔄 [OVERRIDE] Processing failure handler suggestion: {msg.intent}')
-                
-                # Publish the override intent directly
-                self.publish_override_intent(msg)
-                
-                # Reset override flag after a short delay
-                self.create_timer(2.0, self.reset_override_flag)
+                if not self.processing_override:
+                    self.processing_override = True
+                    self.get_logger().info(f'🔄 [OVERRIDE] Processing failure handler suggestion: {msg.intent}')
+
+                    # Publish the override intent directly
+                    self.publish_override_intent(msg)
+
+                    # Reset override flag after a short delay
+                    self.create_timer(2.0, self.reset_override_flag)
             else:
-                # Normal intent, just log it
-                self.get_logger().debug(f'Received normal intent: {msg.intent}')
-                
+                # Non-high priority overrides are ignored here
+                self.get_logger().debug(f'Ignoring non-high priority override: {msg.intent}')
+
         except Exception as e:
             self.get_logger().error(f'Error processing override intent: {e}')
     
